@@ -1,0 +1,418 @@
+html{
+    font-style: 16px/1.5 , 'Oswald';
+}
+
+body{
+    max-width: 1520px;
+    background-color: #000;
+    margin: 0;
+}
+.content{
+    max-width: 1000x;
+}
+header{
+    width: 1536px;
+    height: 150px;
+
+    margin:0em;
+    background-color: #dbd9bb;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+a.header-text1{
+    font-size: 50px;
+    width: 430px;
+    height: 60px;
+    position: absolute;
+    left: 550px;
+    color: black;
+    bottom: 55px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    top: 0em;
+    
+}  
+.laligaicon{
+    color:#ff4b44;
+
+}
+.laligalogo{
+    position:relative;
+    margin-left: 0;
+}
+
+#teams{
+
+    padding: 4px;
+    font-size: 30px;
+    position: absolute;
+    width: 90px;
+    height: 45px;
+    top: 2em;
+    right: 7em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 3px solid black;
+    border-radius: 0.3em;
+    margin-bottom: 1em;
+   
+}
+
+.allteamshead{
+    background-color: #fbff0700;
+    display: flex;
+    position:absolute;
+    background-color: rgb(165, 208, 122);
+    width: 840px;
+    left:0;
+    border-bottom: 1px solid black;
+}
+.allteamsheadlogo{
+    position: relative;
+    left: 2em;
+}
+a.allteamsheadtitle{
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    left: 1em;
+    top: 0.5em;
+
+}
+#allteams{
+    border: 3px solid #000;
+    border-radius: 0.3em;
+    background:#dbd9bb;
+    padding-bottom: 2em;
+    width: 817px;
+    height: 418px;
+    top: 11em;
+    position: absolute;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    max-height: 520px;
+    flex-wrap: wrap;
+    overflow:auto;
+
+
+    
+}
+
+.buttonfirstlist{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    top: 7em;
+    
+}
+
+.buttonsecondlist{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    top: 7em;
+}
+
+ul{
+   list-style-type: none;
+   width: 30%;
+   position: absolute;
+   right: 2em;
+   flex-direction: row;
+  
+   
+}
+
+.teambutton{
+   margin-top: 2em;
+   margin-left: -6px;
+   margin-bottom: 1em; 
+   padding: 4px;
+   font-size: 15px;
+   position: flex;
+   width: 325px;
+   height: 90px;
+   top: 1em;
+   left: 0em;
+   background: none;
+   border: none;
+   border-bottom: 2px solid black;
+   
+   
+}
+
+.teambutton:hover{
+    background: linear-gradient( rgb(165, 208, 122), white);
+    border-radius: 0.5em;
+}
+
+a.numbertable{
+    position: relative;
+    left: 1em;
+}
+.emblemButton{
+    display: flex;
+
+
+}
+.buttontitle{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000;
+    position: relative;
+    bottom: 1.7em;
+    left: 0em;
+    font-family:'fantasy';
+}
+
+a.long{
+    left: 1em;
+}
+
+.buttonicon{
+    position: relative;
+    z-index: 50;
+    color:rgb(0, 255, 94);
+    justify-content: left;
+    top: 0em;
+    display: flex;
+}
+
+.buttonicon img{
+    background: none;
+}
+#allteams .teambutton
+{
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+    z-index: 50;
+}
+
+.sheetsSpot{
+    position: relative;
+    display: flex;
+    width: 500px;
+    height: auto;
+    top: 35em;
+}
+.teamgloryMyTeam{
+    width: 1475px;
+    height: 150px;
+    border-bottom: 10px solid black;
+    border-radius: 0.3em;
+    position: absolute;
+    background: rgb(165, 208, 122);
+    left:1em;
+
+}
+
+.teamgloryMyTeam .name{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    width: 600px;
+}
+
+
+#sheets{
+    position:relative;
+    padding: 3em;
+    width: 1380px;
+    top: 13em;
+    left: 1em;
+    border-color: white;
+    
+   
+}
+
+.grassimg{
+    position:absolute;
+    padding: 0em;
+    width: 1500px;
+    height: 1300px;
+    top: 0em;
+    left: 0em;
+
+}
+
+.spot{
+    
+    width: 1380px;
+    font-size: 10px;
+    display: block;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    position: relative;
+    margin: 4em;
+    text-align: center;
+    display: block;
+    background-color:#ffffff33;
+   
+    
+}
+a.spotshadow{
+    font-size: 30px;
+    position: relative;
+    top:3em;
+    color: #0b0b0b;
+    opacity: 0.4;
+}
+
+.sGK{
+    position: relative;
+    margin: 0;
+    left: 41%;
+    
+}
+.DEFspots,
+.MIDspots{
+    display: flex;
+    margin: 2em;
+    justify-content: center;
+}
+
+
+.FORspots{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin-left: 14em;
+}
+
+.container{
+    display: block;
+    flex-direction: row;
+}
+
+.Squad{
+    position: relative;
+    padding: 0;
+    margin-bottom: 2em;
+    width: 1420px;
+    margin: 0em;
+    display: none;
+    top: 38em;
+    margin-left: 3em;
+    top: 55em;
+}
+
+.player{
+    font-size:10px;
+    display: flex;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: relative;
+    margin: 1em;
+    margin-left: 0;
+    font-style: italic;
+    top:0em;
+    
+} 
+
+.player:hover{
+    background: linear-gradient( #c9b553, white);
+    transition: 0.3s;
+    
+}
+
+a.name{
+    font-size: 50px;
+    width: 430px;
+    height: 60px;
+    position: absolute;
+    left: 4em;
+    top: 1em;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+
+}
+
+.buttonSeeClose{
+    background-color:rgb(53, 27, 154) ;
+    font-size: 10px;
+    width: 200px;
+    height: 20px;
+    border-radius: 1em;
+    position:absolute;
+    display: block;
+    bottom: 2px;
+    right:25px;
+    transition-delay: 0.3s;
+    z-index: 50;
+}
+
+
+.buttonSeeClose:hover{
+    background-color:rgb(12, 0, 60);;
+    transition-delay: 0.3s;
+}
+
+
+.buttonInfo{
+    color: white;
+    position: relative;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+.nationality{
+    position: absolute;
+    color:#000;
+    font-size: 15px;
+    padding: 10px;
+    right: 125px;
+}
+.Ninfo{
+    position: absolute;
+    color:white;
+    font-size: 15px;
+    padding: 10px;
+    left: 7px;
+    top: 25px;
+    align-content: center;
+}
+
+.Ninfo2{
+    position: absolute;
+    color:white;
+    font-size: 15px;
+    padding: 10px;
+    left: 7px;
+    top: 43px;
+    align-content: center;
+}
+.NinfoAlaves2{
+    position: absolute;
+    color:white;
+    font-size: 15px;
+    padding: 10px;
+    left: 7px;
+    top: 20px;
+    align-content: center;
+
+}
+.flagsvg{
+    position: absolute;
+    right: 125px;
+    top: 25px;
+}
+
+a.stadion img{
+    position: absolute;
+    right: 3em;
+    align-items: center;
+    width: 220px;
+    top: 1em;
+
+}

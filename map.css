@@ -1,0 +1,307 @@
+.laliga-map{
+    position: absolute;
+    top: 9em;
+    margin-left: 1em;
+    color: white
+   
+   
+}
+
+.laliga-map img{
+    opacity: 70%;
+}
+.laliga-map button{
+    color: black;
+    background-color: #dbd9bb;
+}
+
+.laliga-map button:hover{
+    background: linear-gradient( rgb(165, 208, 122), white);
+    border-radius: 0.3em;
+}
+.laliga-map img{
+    margin-top: 1em;
+    margin-left: 0em;
+    font-size: 50px;
+    width: 600px;
+    height: 450px;
+    border-radius: 0.3em;
+  
+}
+
+.alaves-li{
+    position: absolute;
+    top: 7.5em;
+    left: 22.5em;
+    z-index: 50;
+}
+.alaves-map{
+    position: absolute;
+    right:2em;
+    top: 0em;
+    background: none;
+    border: none;
+    
+}
+.almeria-map{
+    position: absolute;
+    top:1em;
+    right:2em;
+    background: none;
+    border: none;
+}
+.almeria-li{
+    position: absolute;
+    top: 22.5em;
+    left: 23em;
+    width:66px;
+    height: 18px;
+}
+
+.bilbao-li{
+    position: absolute;
+    top: 6.5em;
+    left: 22em;
+    background: none;
+    border: none;
+}
+.bilbao-map{
+    position: absolute;
+    top:0;
+    right: 2em;
+    background: none;
+    border: none;
+    width: 105px;
+}
+
+.real-li{
+    position: absolute;
+    top:12.5em;
+    left: 20em;
+}
+.real-map{
+    position: absolute;
+    left: 1em;
+    width: 100px;
+    background: none;
+    border: none;
+}
+.atletico-li{
+    position: absolute;
+    top: 14em;
+    left: 21em;
+}
+.atletico-map{
+    position: absolute;
+    top: 0;
+    left: 1em;
+    width: 105px;
+    background: none;
+    border: none;
+}
+
+.barcelona-li{
+    position: absolute;
+    top: 11em;
+    left: 31em;
+}
+.barcelona-map{
+    position: absolute;
+    right: 2em;
+    background: none;
+    border: none;
+}
+.cadiz-li{
+    position: absolute;
+    top: 23em;
+    left: 15em;
+
+}
+.cadriz-map{
+    position: absolute;
+    top: 0;
+    left: 1em;
+    background: none;
+    border: none;
+}
+.celta-li{
+    position: absolute;
+    top: 9em;
+    left: 11em;
+    width: 100px;
+
+}
+.celta-map{
+    position: absolute;
+    left: 1em;
+    background: none;
+    border: none;
+}
+
+.getafe-li{
+    position: absolute;
+    top: 14.5em;
+    left: 20em;
+
+}
+
+.getafe-map{
+    position: absolute;
+    right: 2em;
+    background: none;
+    border: none;
+
+}
+
+.girona-li{
+    position: absolute;
+    top: 9.5em;
+    left: 32.5em;
+}
+
+.girona-map{
+    position: absolute;
+    right: 2em;
+    background: none;
+    border: none;
+    
+}
+.granada-li{
+    position: absolute;
+    top:22em;
+    left: 21em;
+}
+.granada-map{
+    position: absolute;
+    left: -1em;
+    bottom: 1em;
+    background: none;
+    border: none;
+}
+.laspalmas-li{
+    position: absolute;
+    bottom: 1.5em;
+    left: 6.3em;
+}
+.laspalmas-map{
+    position: absolute;
+    bottom:1em;
+    right: -3em;
+    background: none;
+    border: none;
+    width: 100px;
+}
+.mallorca-li{
+    position: absolute;
+    bottom: 15.3em;
+    left: 33.5em;
+}
+.mallorca-map{
+    position: absolute;
+    bottom:-1em;
+    right: -2.7em;
+    background: none;
+    border: none;
+    width: 70px;
+}
+
+.osasuna-li{
+    position: absolute;
+    top: 7.5em;
+    left: 24em;
+
+}
+
+.osasuna-map{
+    position: absolute;
+    left: 1em;
+    top: 0em;
+    background: none;
+    border: none;
+}
+.rayo-li{
+    position: absolute;
+    top:13.3em;
+    left: 20.5em;
+
+}
+
+.rayo-map{
+    position: absolute;
+    background: none;
+    border: none;
+    top: 0em;
+    right: 2em;
+    width: 105px;
+}
+
+.betis-li{
+    position: absolute;
+    bottom: 9.5em ;
+    left: 15.5em;
+}
+.betis-map{
+    position: absolute;
+    top: 0;
+    right: 1em;
+    background: none;
+    border: none;
+    width: 80px;
+}
+.sociedad-li{
+    position: absolute;
+    top: 6.2em;
+    left: 24em;
+
+}
+.sociedad-map{
+    position: absolute;
+    top: 0;
+    left: 1em;
+    width: 110px;
+    background: none;
+    border: none;
+}
+.sevilla-li{
+    position: absolute;
+    bottom:9.5em;
+    left: 15.5em;
+}
+
+.sevilla-map{
+    position: absolute;
+    top: 0;
+    left: 1em;
+    background: none;
+    border: none;
+}
+.valencia-li{
+    position: absolute;
+    top: 16em;
+    left: 26.6em;
+
+}
+
+.valencia-map{
+    position: absolute;
+    top: 0.5em;
+    left: 1em;
+    background: none;
+    border: none;
+}
+.villareal-li{
+    position: absolute;
+    top: 15em;
+    left: 27em;
+
+}
+.villareal-map{
+    position: absolute;
+    top: 0;
+    left: 1em;
+    background: none;
+    border: none;
+}
+
+/*
+  
