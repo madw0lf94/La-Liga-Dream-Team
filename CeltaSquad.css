@@ -1,0 +1,946 @@
+.teamgloryCelta{
+    width: 1420px;
+    height: 150px;
+    border-bottom: 10px solid black;
+    /*background-color: #dbd9bb; */
+    border-radius: 0.3em;
+    position: relative;
+    background: linear-gradient( #ada681, rgb(23, 141, 200), rgb(138, 3, 3));
+
+}
+
+a.infoCelta,
+a.infoCeltaGK,
+a.infoCeltaFOR{
+    position: absolute;
+    left: 0em;
+    display: none;
+}
+
+
+a.iconCelta{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    border-right: 2px solid #000;
+    padding-left: 1em;
+    
+}
+
+a.pic-photoCelta img{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: auto;
+    align-items: right;
+    padding-top: 0.56em;
+    left: 0em;
+    top: 0.74em;
+    
+    
+}
+a.pic-photoCeltaBaeza img{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    width: 150px;
+    height: auto;
+    align-items: right;
+    padding-top: 0.56em;
+    left: 0em;
+    top: 0.74em;
+    
+    
+}
+
+a.pic-photoCeltaGK img{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: auto;
+    padding-top: 0.56em;
+    left: 0.5em;
+    top: 0.74em;
+    
+}
+a.pic-iconCelta img{
+    display: flex;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 2em;
+    top: 1em;
+    border: 1em;
+    fill: black;
+    background: none;
+    
+} 
+
+a.pic-iconCelta{
+    bottom: 0em;
+    width: 175px;
+}
+
+.infoCeltaGK a.t-shirt-number-GKCelta svg{
+    position: absolute;
+    padding-top: 3.3em;
+    padding-left: 0.6em;
+    fill:rgb(220, 26, 152);
+    stroke-width: 20px;
+    stroke: rgb(232, 239, 16);
+  
+}
+
+
+a.t-shirt-numberCelta svg{
+    position: absolute;
+    left: 1.5em;
+    top: 7em;
+    fill:rgb(23, 141, 200);
+    stroke-width: 20px;
+    stroke:white;
+    border-color: 3px solid black;
+}
+
+.playerCelta .infoCelta {
+    position: absolute;
+    display: flex;
+}
+
+.infoCelta h4,
+.infoCeltaFOR h4{
+    position: absolute;
+    font-size: 20px;
+    width: 42px;
+    height: 60px;
+    display: flex;
+    color:white;
+    top: 0.2em;
+    left: 0.5em;
+    
+
+} 
+
+
+.infoCeltaGK{
+    position: absolute;
+    font-size: 20px;
+    width: 42px;
+    height: 60px;
+    display: flex;
+    color: white;
+
+}
+
+.infoCeltaGK h4{
+    color:white;
+    top: 0em;
+    left: -0.15em;
+  
+
+}
+.gk-playersCelta{
+    align-items: center;
+    width: 1380px;
+    transition-delay:  0.3s;
+    display: flex;
+    position: relative;
+}
+
+.gk-playersCelta h5{
+    font-size: 30px;
+    display: flex;
+    left: 0;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0em;
+    color: black;
+}
+.infoCelta h5{
+    padding-left: 0.2em;
+}
+
+.infoCadizFOR h5{
+    left: -0.5em;
+    top: 0;
+}
+.infoName{
+    position: absolute;
+    color: black;
+    z-index: 10;
+    font-size: 23px;
+    top: 192px;
+    left: 0;
+    width: 250px;
+    text-align: center;
+   
+
+}
+.infoCelta h6,
+.infoCeltaGK h6{
+    position: absolute;
+    font-size: 15px;
+    display: flex;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    opacity: 0.3;
+    top: 0;
+    left:0;
+}
+
+a.InfoFone{
+    position: absolute;
+    font-size: 15px;
+    background: linear-gradient( #ada681, white);
+    width: 250px;
+    height:65px;
+    top: 186px;
+    left: 0;
+    opacity:0.8;
+    border-radius: 0.5em;
+    border-top: 3px solid black;
+}
+.short h6{
+    left: 3px;
+}
+
+.goalkeepers,
+.defenders,
+.midfilders,
+.forwards{
+    margin-bottom: 1em;
+    height: 400px;
+    border-bottom: 3px solid rgb(12, 0, 60);
+    background-color: #dbd9bb;
+    border-radius: 0.3em;
+   
+}
+
+.goalkeepers{
+    border-top:  3px solid rgb(12, 0, 60);
+}
+
+#bioCelta1,
+#bioCelta2,
+#bioCelta3,
+#bioCelta4,
+#bioCelta5,
+#bioCelta6,
+#bioCelta7,
+#bioCelta8,
+#bioCelta9,
+#bioCelta10,
+#bioCelta11,
+#bioCelta12,
+#bioCelta13,
+#bioCelta14,
+#bioCelta15,
+#bioCelta16,
+#bioCelta17,
+#bioCelta18,
+#bioCelta19,
+#bioCelta20,
+#bioCelta21,
+#bioCelta22,
+#bioCelta23,
+#bioCadiz24,
+#bioCadiz25,
+#bioCadiz26
+
+
+
+{
+    font-size:10px;
+    width: 25em;
+    height: 14em;
+    top: 10em;
+    border: 2px solid rgb(12, 0, 60) ;
+    border-radius: 10px;
+    position: absolute;
+    right: -1px;
+    background-color: rgb(208, 194, 122);
+    display: none;
+    z-index: 10;
+}
+
+.flagCour img.flagsvgPortugal{
+    position: absolute;
+    left: 11em;
+    top: 3.5em;
+}
+.flagCour img.flagsvgMoz{
+    position: absolute;
+    left: 12em;
+    top: 3.5em;
+}
+
+.date{
+    position:absolute;
+    color: rgba(255, 255, 255, 0.593);
+    font-size: 15px;
+    top: 106px;
+    right: 150px;
+
+}
+
+.oldAlmeria2{
+    position:absolute;
+    color: white;
+    font-size: 15px;
+    top: 87px;
+    right: 175px;
+}
+.foot{
+    position: absolute;
+    color:black;
+    font-size: 15px;
+    padding: 5px;
+    top: 15px;
+    right: 25px;
+}
+.stepsvg{
+    position: relative;
+    color: black;
+    font-size: 25px;
+    top: 10px;
+    left: 127px;
+}
+
+.text-L{
+    font-size: 15px;
+    position: absolute;
+    top:70px;
+    left: 184px;
+    color: white;
+    z-index: 50;
+}
+
+.text-R{
+    font-size: 15px;
+    position: absolute;
+    top:85px;
+    left: 210px;
+    color: white;
+    z-index: 50;
+}
+
+.DEFlist,
+.listMID{
+    position: relative;
+    width: 1380px;
+    display: flex;
+   
+
+}
+
+.headerGK,
+.headerDEF,
+.headerMID,
+.headerFOR{
+    display: flex;
+    width: 1300px;
+    font-size: 50px;
+    position: relative;
+    left: 1em;
+    border-bottom: 3px solid #000;
+}
+
+.headername{
+    display: flex;
+    position: absolute;
+    left: 2em;
+    top: 20px;
+}
+
+.iconHead{
+    position: absolute;
+    top:10px;
+    right:1em;
+}
+.def-head-svg,
+.for-head-svg{
+    position: relative;
+    top: 11.4px;
+}
+
+.headerGKicon a.svg,
+.headerFORicon a.svg{
+    font-size: 50px;
+    position: relative;
+    top: 1em;
+    left: 5%;
+}
+.players-arrow {
+    font-size: 30px;
+    color: rgb(12, 0, 60);
+    position: absolute;
+    border: 3px solid rgb(12, 0, 60);
+    background-color: rgb(208, 194, 122);
+    border-radius: 0.1em;
+    cursor: pointer;
+    z-index: 50;
+    align-items: center;
+    height: 280px;
+}
+
+#secondbuttonCelta,
+#secondbuttonMIDCelta
+{
+    width: 50px;
+    right: 1410px;
+    display: none;  
+
+    
+   
+}
+
+#firstbuttonCelta,
+#firstbuttonMIDCelta{
+    position: absolute;
+    width: 55px;
+    left: 1400px;
+    
+   
+}
+
+#secondCelta,
+#secondMIDCelta{
+    position: relative;
+    display: none;
+    transition-delay: 0.3sec;
+    width: 1420px;
+    left: 42%;
+}
+.gk-players,
+.firstlist,
+.firstMIDlist,
+.fr-players{
+    align-items: center;
+    width: 1380px;
+    transition-delay:  0.3s;
+    display: flex;
+    position: relative;
+
+}
+.secondlist,
+.secondMIDlist{
+    align-items: center;
+    display: flex;
+    position: relative;
+    width: 840px;
+    left: -42%;
+    
+}
+
+
+#bioCelta1,
+#bioCelta1-1,
+#bioCelta2,
+#bioCelta2-1,
+#bioCelta3,
+#bioCelta3-1,
+#bioCelta3-2,
+#bioCelta3-3,
+#bioCelta3-4,
+#bioCelta4,
+#bioCelta4-1,
+#bioCelta4-2,
+#bioCelta4-3,
+#bioCelta4-4,
+#bioCelta5,
+#bioCelta5-1,
+#bioCelta5-2,
+#bioCelta5-3,
+#bioCelta5-4,
+#bioCelta6,
+#bioCelta6-1,
+#bioCelta6-2,
+#bioCelta6-3,
+#bioCelta6-4,
+#bioCelta7,
+#bioCelta7-1,
+#bioCelta7-2,
+#bioCelta7-3,
+#bioCelta7-4,
+#bioCelta8,
+#bioCelta8-1,
+#bioCelta8-2,
+#bioCelta8-3,
+#bioCelta8-4,
+#bioCelta9,
+#bioCelta9-1,
+#bioCelta9-2,
+#bioCelta9-3,
+#bioCelta9-4,
+#bioCelta10,
+#bioCelta10-1,
+#bioCelta10-2,
+#bioCelta10-3,
+#bioCelta10-4,
+#bioCelta11,
+#bioCelta11-1,
+#bioCelta11-2,
+#bioCelta11-3,
+#bioCelta11-4,
+#bioCelta12,
+#bioCelta12-1,
+#bioCelta12-2,
+#bioCelta12-3,
+#bioCelta12-4,
+#bioCelta13,
+#bioCelta13-1,
+#bioCelta13-2,
+#bioCelta13-3,
+#bioCelta13-4,
+#bioCelta14,
+#bioCelta14-1,
+#bioCelta14-2,
+#bioCelta14-3,
+#bioCelta14-4,
+#bioCelta15,
+#bioCelta15-1,
+#bioCelta15-2,
+#bioCelta15-3,
+#bioCelta15-4,
+#bioCelta16,
+#bioCelta16-1,
+#bioCelta16-2,
+#bioCelta16-3,
+#bioCelta16-4,
+#bioCelta17,
+#bioCelta17-1,
+#bioCelta17-2,
+#bioCelta17-3,
+#bioCelta17-4,
+#bioCelta18,
+#bioCelta18-1,
+#bioCelta18-2,
+#bioCelta18-3,
+#bioCelta18-4,
+#bioCelta19,
+#bioCelta19-1,
+#bioCelta19-2,
+#bioCelta20,
+#bioCelta20-1,
+#bioCelta20-2,
+#bioCelta21,
+#bioCelta21-1,
+#bioCelta21-2,
+#bioCelta22,
+#bioCelta22-1,
+#bioCelta22-2,
+#bioCelta23,
+#bioCelta23-1,
+#bioCelta23-2
+
+{
+    font-size:10px;
+    width: 25em;
+    height: 14em;
+    top: 10em;
+    border: 2px solid rgb(12, 0, 60) ;
+    border-radius: 10px;
+    position: absolute;
+    right: -1px;
+    background-color: rgb(208, 194, 122);
+    display: none;
+    z-index: 10;
+}
+
+#GKplayerCel1,
+#GKplayerCel2,
+#DEFplayerCel3,
+#DEFplayerCel4,
+#DEFplayerCel5,
+#DEFplayerCel6,
+#DEFplayerCel7,
+#DEFplayerCel8,
+#DEFplayerCel9,
+#MIDplayerCel10,
+#MIDplayerCel11,
+#MIDplayerCel12,
+#MIDplayerCel13,
+#MIDplayerCel14,
+#MIDplayerCel15,
+#MIDplayerCel16,
+#MIDplayerCel17,
+#MIDplayerCel18,
+#FORPlayerCel19,
+#FORPlayerCel20,
+#FORPlayerCel21,
+#FORPlayerCel22,
+#FORPlayerCel23
+{
+    font-size:10px;
+    display: flex;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: relative;
+    margin: 1em;
+    margin-left: 0;
+    font-style: italic;
+    top:0em;
+}
+#GKspotCel1,
+#GKspotCel2
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 60.3em;
+    font-style: italic;
+    bottom:115.3em;
+}
+#DEFspotCel31,
+#DEFspotCel41,
+#DEFspotCel51,
+#DEFspotCel61,
+#DEFspotCel71,
+#DEFspotCel81,
+#DEFspotCel91
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 10em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotCel32,
+#DEFspotCel42,
+#DEFspotCel52,
+#DEFspotCel62,
+#DEFspotCel72,
+#DEFspotCel82,
+#DEFspotCel92
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 43em;
+    font-style: italic;
+    bottom:82.2em;
+}
+#DEFspotCel33,
+#DEFspotCel43,
+#DEFspotCel53,
+#DEFspotCel63,
+#DEFspotCel73,
+#DEFspotCel83,
+#DEFspotCel93
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 76em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotCel34,
+#DEFspotCel44,
+#DEFspotCel54,
+#DEFspotCel64,
+#DEFspotCel74,
+#DEFspotCel84,
+#DEFspotCel94
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 109em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#MIDspotCel101,
+#MIDspotCel111,
+#MIDspotCel121,
+#MIDspotCel131,
+#MIDspotCel141,
+#MIDspotCel151,
+#MIDspotCel161,
+#MIDspotCel171,
+#MIDspotCel181
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 10em;
+    font-style: italic;
+    bottom:45.2em;
+}
+
+#MIDspotCel102,
+#MIDspotCel112,
+#MIDspotCel122,
+#MIDspotCel132,
+#MIDspotCel142,
+#MIDspotCel152,
+#MIDspotCel162,
+#MIDspotCel172,
+#MIDspotCel182
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 43em;
+    font-style: italic;
+    bottom:45.2em;
+}
+#MIDspotCel103,
+#MIDspotCel113,
+#MIDspotCel123,
+#MIDspotCel133,
+#MIDspotCel143,
+#MIDspotCel153,
+#MIDspotCel163,
+#MIDspotCel173,
+#MIDspotCel183
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 76em;
+    font-style: italic;
+    bottom:45.2em;
+}
+#MIDspotCel104,
+#MIDspotCel114,
+#MIDspotCel124,
+#MIDspotCel134,
+#MIDspotCel144,
+#MIDspotCel154,
+#MIDspotCel164,
+#MIDspotCel174,
+#MIDspotCel184
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 109em;
+    font-style: italic;
+    bottom:45.2em;
+}
+#FORspotCel191,
+#FORspotCel201,
+#FORspotCel211,
+#FORspotCel221,
+#FORspotCel231
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 30em;
+    font-style: italic;
+    bottom:8em;
+
+}
+#FORspotCel192,
+#FORspotCel202,
+#FORspotCel212,
+#FORspotCel222,
+#FORspotCel232{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 86em;
+    font-style: italic;
+    bottom:8em;
+
+}
+
+.buttonSelectCel,
+.buttonSelectBackCel{
+    position:absolute;
+    color: white;
+    background-color:black;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    left: 6em;
+    top: 0em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+.buttonSelectCel:hover{
+    background-color:rgb(5, 160, 26) ;
+    transition-delay: 0.3s;
+   
+}
+.buttonSelectBackCel:hover{
+    background-color:rgb(255, 15, 15) ;
+    transition-delay: 0.3s;
+   
+}
+
+
+.buttonSelectDefMenuCel{
+    position:absolute;
+    color: white;
+    background-color:black;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    left: 3em;
+    top: 0.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.buttonSelectDefMenuCel a{
+    position: relative;
+    display: block;
+    text-align: center;
+}
+.buttonSelectDefMenuCel:hover{
+    background: linear-gradient( #ada681, yellow);
+    color: #000;
+    
+}
+
+
+.buttonSelectDefCel{
+    position: relative;
+    background: linear-gradient( #ada681, yellow);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 0.3em;
+    width: 50px;
+    height: 20px;
+}
+
+.buttonSelectDefCel:hover{
+    background: linear-gradient( #ada681, rgb(5, 160, 26));
+    transition-delay: 0.3s;
+    color :white;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+   
+}
+
+
+.defSelectCel{
+    left: 4em;
+    top: -1.5em;
+    width: 170px;
+    height: 200px;
+   
+   
+}
+
+
+.defSelectCel li {
+    position: relative;
+    display: none;
+    margin-left: 0.5em;
+    margin-bottom: 0em;
+    border-radius: 0.5em;
+    z-index: 50 ;
+    left: 10em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 1em;
+    font-size: 10px;
+    height: 25px;
+
+    
+   
+}
+.defSelectCel:hover li{
+    display: flex;
+}

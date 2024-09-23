@@ -1,0 +1,752 @@
+.teamgloryGetafe{
+    width: 1420px;
+    height: 150px;
+    border-bottom: 10px solid black;
+    /*background-color: #dbd9bb; */
+    border-radius: 0.3em;
+    position: relative;
+    background: linear-gradient( #ada681, white, rgb(67, 175, 208));
+
+}
+
+a.infoGetafe,
+a.infoGetafeaGK,
+a.infoGetafeFOR{
+    position: absolute;
+    left: 0em;
+    display: none;
+}
+
+
+a.iconGetafe{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    border-right: 2px solid #000;
+    padding-left: 1em;
+    
+}
+
+a.pic-photoGetafe img{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: auto;
+    align-items: right;
+    padding-top: 0.56em;
+    left: 0em;
+    top: 0.74em;
+    
+    
+}
+a.pic-photoCeltaBaeza img{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    width: 150px;
+    height: auto;
+    align-items: right;
+    padding-top: 0.56em;
+    left: 0em;
+    top: 0.74em;
+    
+    
+}
+
+a.pic-photoGetafeGK img{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: auto;
+    padding-top: 0.56em;
+    left: 0.5em;
+    top: 0.74em;
+    
+}
+a.pic-iconGetafe img{
+    display: flex;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 2em;
+    top: 1em;
+    border: 1em;
+    fill: black;
+    background: none;
+    
+} 
+
+a.pic-iconGetafe{
+    bottom: 0em;
+    width: 175px;
+}
+
+.infoGetafeGK a.t-shirt-number-GKGetafe svg{
+    position: absolute;
+    padding-top: 3.3em;
+    padding-left: 0.6em;
+    fill:rgb(240, 253, 92);
+    stroke-width: 20px;
+    stroke: rgb(34, 126, 29);
+  
+}
+
+
+a.t-shirt-numberGetafe svg{
+    position: absolute;
+    left: 1.5em;
+    top: 7em;
+    fill:rgb(6, 71, 234);
+    stroke-width: 20px;
+    stroke:rgb(101, 164, 223);
+    border-color: 3px solid black;
+}
+
+.playerGetafe .infoGetafe {
+    position: absolute;
+    display: flex;
+}
+
+.infoGetafe h4,
+.infoGetafeFOR h4{
+    position: absolute;
+    font-size: 20px;
+    width: 42px;
+    height: 60px;
+    display: flex;
+    color:white;
+    top: 0.2em;
+    left: 0.5em;
+    
+
+} 
+
+
+.infoGetafeGK{
+    position: absolute;
+    font-size: 20px;
+    width: 42px;
+    height: 60px;
+    display: flex;
+    color: white;
+
+}
+
+.infoGetafeGK h4{
+    color: rgb(34, 126, 29);
+    top: 0em;
+    left: -0.15em;
+  
+
+}
+.gk-playersGetafe{
+    align-items: center;
+    width: 1380px;
+    transition-delay:  0.3s;
+    display: flex;
+    position: relative;
+}
+
+.gk-playersGetafe h5{
+    font-size: 30px;
+    display: flex;
+    left: 0;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0em;
+    color: black;
+}
+.infoGetafe h5{
+    padding-left: 0.2em;
+}
+
+.infoGetafeFOR h5{
+    left: -0.5em;
+    top: 0;
+}
+.infoName{
+    position: absolute;
+    color: black;
+    z-index: 10;
+    font-size: 23px;
+    top: 192px;
+    left: 0;
+    width: 250px;
+    text-align: center;
+   
+
+}
+.infoGetafe h6,
+.infoGetafeGK h6{
+    position: absolute;
+    font-size: 15px;
+    display: flex;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    opacity: 0.3;
+    top: 0;
+    left:0;
+}
+
+a.InfoFone{
+    position: absolute;
+    font-size: 15px;
+    background: linear-gradient( #ada681, white);
+    width: 250px;
+    height:65px;
+    top: 186px;
+    left: 0;
+    opacity:0.8;
+    border-radius: 0.5em;
+    border-top: 3px solid black;
+}
+.short h6{
+    left: 3px;
+}
+
+.goalkeepers,
+.defenders,
+.midfilders,
+.forwards{
+    margin-bottom: 1em;
+    height: 400px;
+    border-bottom: 3px solid rgb(12, 0, 60);
+    background-color: #dbd9bb;
+    border-radius: 0.3em;
+   
+}
+
+.goalkeepers{
+    border-top:  3px solid rgb(12, 0, 60);
+}
+
+.flagCour img.flagsvgPortugal{
+    position: absolute;
+    left: 11em;
+    top: 3.5em;
+}
+.flagCour img.flagsvgMoz{
+    position: absolute;
+    left: 12em;
+    top: 3.5em;
+}
+
+.date{
+    position:absolute;
+    color: rgba(255, 255, 255, 0.593);
+    font-size: 15px;
+    top: 106px;
+    right: 150px;
+
+}
+
+.foot{
+    position: absolute;
+    color:black;
+    font-size: 15px;
+    padding: 5px;
+    top: 15px;
+    right: 25px;
+}
+.stepsvg{
+    position: relative;
+    color: black;
+    font-size: 25px;
+    top: 10px;
+    left: 127px;
+}
+
+.text-L{
+    font-size: 15px;
+    position: absolute;
+    top:70px;
+    left: 184px;
+    color: white;
+    z-index: 50;
+}
+
+.text-R{
+    font-size: 15px;
+    position: absolute;
+    top:85px;
+    left: 210px;
+    color: white;
+    z-index: 50;
+}
+
+.DEFlist,
+.listMID{
+    position: relative;
+    width: 1380px;
+    display: flex;
+   
+
+}
+
+.headerGK,
+.headerDEF,
+.headerMID,
+.headerFOR{
+    display: flex;
+    width: 1300px;
+    font-size: 50px;
+    position: relative;
+    left: 1em;
+    border-bottom: 3px solid #000;
+}
+
+.headername{
+    display: flex;
+    position: absolute;
+    left: 2em;
+    top: 20px;
+}
+
+.iconHead{
+    position: absolute;
+    top:10px;
+    right:1em;
+}
+.def-head-svg,
+.for-head-svg{
+    position: relative;
+    top: 11.4px;
+}
+
+.headerGKicon a.svg,
+.headerFORicon a.svg{
+    font-size: 50px;
+    position: relative;
+    top: 1em;
+    left: 5%;
+}
+
+.gk-players,
+.firstlist,
+.firstMIDlist,
+.fr-players{
+    align-items: center;
+    width: 1380px;
+    transition-delay:  0.3s;
+    display: flex;
+    position: relative;
+
+}
+
+
+#bioGetafe1,
+#bioGetafe1-1,
+#bioGetafe2,
+#bioGetafe2-1,
+#bioGetafe2-2,
+#bioGetafe2-3,
+#bioGetafe2-4,
+#bioGetafe3,
+#bioGetafe3-1,
+#bioGetafe3-2,
+#bioGetafe3-3,
+#bioGetafe3-4,
+#bioGetafe4,
+#bioGetafe4-1,
+#bioGetafe4-2,
+#bioGetafe4-3,
+#bioGetafe4-4,
+#bioGetafe5,
+#bioGetafe5-1,
+#bioGetafe5-2,
+#bioGetafe5-3,
+#bioGetafe5-4,
+#bioGetafe6,
+#bioGetafe6-1,
+#bioGetafe6-2,
+#bioGetafe6-3,
+#bioGetafe6-4,
+#bioGetafe7,
+#bioGetafe7-1,
+#bioGetafe7-2,
+#bioGetafe7-3,
+#bioGetafe7-4,
+#bioGetafe8,
+#bioGetafe8-1,
+#bioGetafe8-2,
+#bioGetafe8-3,
+#bioGetafe8-4,
+#bioGetafe9,
+#bioGetafe9-1,
+#bioGetafe9-2,
+#bioGetafe9-3,
+#bioGetafe9-4,
+#bioGetafe10,
+#bioGetafe10-1,
+#bioGetafe10-2,
+#bioGetafe10-3,
+#bioGetafe10-4,
+#bioGetafe11,
+#bioGetafe11-1,
+#bioGetafe11-2
+
+{
+    font-size:10px;
+    width: 25em;
+    height: 14em;
+    top: 10em;
+    border: 2px solid rgb(12, 0, 60) ;
+    border-radius: 10px;
+    position: absolute;
+    right: -1px;
+    background-color: rgb(208, 194, 122);
+    display: none;
+    z-index: 10;
+}
+
+#GKplayerGet1,
+#DEFplayerGet2,
+#DEFplayerGet3,
+#DEFplayerGet4,
+#DEFplayerGet5,
+#DEFplayerGet6,
+#MIDplayerGet7,
+#MIDplayerGet8,
+#MIDplayerGet9,
+#MIDplayerGet10,
+#FORPlayerGet11
+{
+    font-size:10px;
+    display: flex;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: relative;
+    margin: 1em;
+    margin-left: 0;
+    font-style: italic;
+    top:0em;
+}
+#GKspotGet1
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 60.3em;
+    font-style: italic;
+    bottom:115.3em;
+}
+#DEFspotGet21,
+#DEFspotGet31,
+#DEFspotGet41,
+#DEFspotGet51,
+#DEFspotGet61
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 10em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotGet22,
+#DEFspotGet32,
+#DEFspotGet42,
+#DEFspotGet52,
+#DEFspotGet62
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 43em;
+    font-style: italic;
+    bottom:82.2em;
+}
+#DEFspotGet23,
+#DEFspotGet33,
+#DEFspotGet43,
+#DEFspotGet53,
+#DEFspotGet63
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 76em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotGet24,
+#DEFspotGet34,
+#DEFspotGet44,
+#DEFspotGet54,
+#DEFspotGet64
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 109em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#MIDspotGet71,
+#MIDspotGet81,
+#MIDspotGet91,
+#MIDspotGet101
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 10em;
+    font-style: italic;
+    bottom:45.2em;
+}
+
+#MIDspotGet72,
+#MIDspotGet82,
+#MIDspotGet92,
+#MIDspotGet102
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 43em;
+    font-style: italic;
+    bottom:45.2em;
+}
+#MIDspotGet73,
+#MIDspotGet83,
+#MIDspotGet93,
+#MIDspotGet103
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 76em;
+    font-style: italic;
+    bottom:45.2em;
+}
+#MIDspotGet74,
+#MIDspotGet84,
+#MIDspotGet94,
+#MIDspotGet104
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 109em;
+    font-style: italic;
+    bottom:45.2em;
+}
+
+#FORspotGet111
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 30em;
+    font-style: italic;
+    bottom:8em;
+
+}
+
+#FORspotGet112{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 86em;
+    font-style: italic;
+    bottom:8em;
+
+}
+
+.buttonSelectGet,
+.buttonSelectBackGet{
+    position:absolute;
+    color: white;
+    background-color:black;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    left: 6em;
+    top: 0em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+.buttonSelectGet:hover{
+    background-color:rgb(5, 160, 26) ;
+    transition-delay: 0.3s;
+   
+}
+.buttonSelectBackGet:hover{
+    background-color:rgb(255, 15, 15) ;
+    transition-delay: 0.3s;
+   
+}
+
+
+.buttonSelectDefMenuGet{
+    position:absolute;
+    color: white;
+    background-color:black;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    left: 3em;
+    top: 0.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.buttonSelectDefMenuGet a{
+    position: relative;
+    display: block;
+    text-align: center;
+}
+.buttonSelectDefMenuGet:hover{
+    background: linear-gradient( #ada681, yellow);
+    color: #000;
+    
+}
+
+
+.buttonSelectDefGet{
+    position: relative;
+    background: linear-gradient( #ada681, yellow);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 0.3em;
+    width: 50px;
+    height: 20px;
+}
+
+.buttonSelectDefGet:hover{
+    background: linear-gradient( #ada681, rgb(5, 160, 26));
+    transition-delay: 0.3s;
+    color :white;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+   
+}
+
+
+.defSelectGet{
+    left: 4em;
+    top: -1.5em;
+    width: 170px;
+    height: 200px;
+   
+   
+}
+
+
+.defSelectGet li {
+    position: relative;
+    display: none;
+    margin-left: 0.5em;
+    margin-bottom: 0em;
+    border-radius: 0.5em;
+    z-index: 50 ;
+    left: 10em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 1em;
+    font-size: 10px;
+    height: 25px;
+
+    
+   
+}
+.defSelectGet:hover li{
+    display: flex;
+}

@@ -1,0 +1,844 @@
+.teamgloryValencia{
+    width: 1420px;
+    height: 150px;
+    border-bottom: 10px solid black;
+    /*background-color: #dbd9bb; */
+    border-radius: 0.3em;
+    position: relative;
+    background: linear-gradient( #ada681,white,rgb(255, 213, 0), rgb(168, 2, 2),rgb(0, 0, 0));
+
+}
+
+a.infoValencia,
+a.infoValenciaGK,
+a.infoValenciaFOR{
+    position: absolute;
+    left: 0em;
+    display: none;
+}
+
+
+a.iconValencia{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    border-right: 2px solid #000;
+    padding-left: 1em;
+    
+}
+
+a.pic-iconValencia img{
+    display: flex;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 2em;
+    top: 1em;
+    border: 1em;
+    fill: black;
+    background: none;
+    
+} 
+
+a.pic-iconValencia{
+    bottom: 0em;
+    width: 175px;
+}
+a.pic-photoValencia img{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: auto;
+    align-items: right;
+    padding-top: 0.56em;
+    left: 0.2em;
+    top: 0.74em;
+    
+    
+}
+
+
+a.pic-photoValenciaGK img{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: auto;
+    padding-top: 0.56em;
+    left: 0.2em;
+    top: 0.74em;
+    
+}
+.infoValenciaGK a.t-shirt-number-GKValencia svg{
+    position: absolute;
+    padding-top: 7em;
+    left: 1em;
+    fill:rgb(222, 19, 19);
+    stroke-width: 20px;
+    stroke: rgb(244, 244, 244);
+  
+}
+
+
+a.t-shirt-numberValencia svg{
+    position: absolute;
+    left: 1.5em;
+    top: 7em;
+    fill:rgb(255, 255, 255);
+    stroke-width: 20px;
+    stroke:rgb(0, 0, 0);
+    border-color: 3px solid black;
+}
+
+.playerValencia .infValencia {
+    position: absolute;
+    display: flex;
+}
+
+.infoValencia h4,
+.infoValenciaFOR h4{
+    position: absolute;
+    font-size: 20px;
+    width: 42px;
+    height: 60px;
+    display: flex;
+    color: rgb(0, 0, 0);
+    top: 0.2em;
+    left: 0.5em;
+    
+
+} 
+
+
+.infValenciaGK{
+    position: absolute;
+    font-size: 20px;
+    width: 42px;
+    height: 60px;
+    display: flex;
+    color: white;
+
+}
+
+.infoValenciaGK h4{
+    color:rgb(255, 252, 252);
+    top: 0em;
+    left: -0.2em;
+  
+
+}
+.gk-playersValencia{
+    align-items: center;
+    width: 1380px;
+    transition-delay:  0.3s;
+    display: flex;
+    position: relative;
+}
+
+.gk-playersValencia h5{
+    font-size: 30px;
+    display: flex;
+    left: 0;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0em;
+    color: black;
+}
+.infoValencia h5{
+    padding-left: 0.2em;
+}
+
+.infoValenciaFOR h5{
+    left: -0.5em;
+    top: 0;
+}
+.infoName{
+    position: absolute;
+    color: black;
+    z-index: 10;
+    font-size: 23px;
+    top: 192px;
+    left: 0;
+    width: 250px;
+    text-align: center;
+   
+
+}
+.infoValencia h6,
+.infoValenciaGK h6{
+    position: absolute;
+    font-size: 15px;
+    display: flex;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    opacity: 0.3;
+    top: 0;
+    left:0;
+}
+
+a.InfoFone{
+    position: absolute;
+    font-size: 15px;
+    background: linear-gradient( #ada681, white);
+    width: 250px;
+    height:65px;
+    top: 186px;
+    left: 0;
+    opacity:0.8;
+    border-radius: 0.5em;
+    border-top: 3px solid black;
+}
+.short h6{
+    left: 3px;
+}
+
+.goalkeepers,
+.defenders,
+.midfilders,
+.forwards{
+    margin-bottom: 1em;
+    height: 400px;
+    border-bottom: 3px solid rgb(12, 0, 60);
+    background-color: #dbd9bb;
+    border-radius: 0.3em;
+   
+}
+
+.goalkeepers{
+    border-top:  3px solid rgb(12, 0, 60);
+}
+
+.flagCour img.flagsvgPortugal{
+    position: absolute;
+    left: 11em;
+    top: 3.5em;
+}
+.flagCour img.flagsvgMoz{
+    position: absolute;
+    left: 12em;
+    top: 3.5em;
+}
+
+.date{
+    position:absolute;
+    color: rgba(255, 255, 255, 0.593);
+    font-size: 15px;
+    top: 106px;
+    right: 150px;
+
+}
+
+.foot{
+    position: absolute;
+    color:black;
+    font-size: 15px;
+    padding: 5px;
+    top: 15px;
+    right: 25px;
+}
+.stepsvg{
+    position: relative;
+    color: black;
+    font-size: 25px;
+    top: 10px;
+    left: 127px;
+}
+
+.text-L{
+    font-size: 15px;
+    position: absolute;
+    top:70px;
+    left: 184px;
+    color: white;
+    z-index: 50;
+}
+
+.text-R{
+    font-size: 15px;
+    position: absolute;
+    top:85px;
+    left: 210px;
+    color: white;
+    z-index: 50;
+}
+
+.DEFlist,
+.listMID{
+    position: relative;
+    width: 1380px;
+    display: flex;
+   
+
+}
+
+.headerGK,
+.headerDEF,
+.headerMID,
+.headerFOR{
+    display: flex;
+    width: 1300px;
+    font-size: 50px;
+    position: relative;
+    left: 1em;
+    border-bottom: 3px solid #000;
+}
+
+.headername{
+    display: flex;
+    position: absolute;
+    left: 2em;
+    top: 20px;
+}
+
+.iconHead{
+    position: absolute;
+    top:10px;
+    right:1em;
+}
+.def-head-svg,
+.for-head-svg{
+    position: relative;
+    top: 11.4px;
+}
+
+.headerGKicon a.svg,
+.headerFORicon a.svg{
+    font-size: 50px;
+    position: relative;
+    top: 1em;
+    left: 5%;
+}
+.players-arrow {
+    font-size: 30px;
+    color: rgb(12, 0, 60);
+    position: absolute;
+    border: 3px solid rgb(12, 0, 60);
+    background-color: rgb(208, 194, 122);
+    border-radius: 0.1em;
+    cursor: pointer;
+    z-index: 50;
+    align-items: center;
+    height: 280px;
+}
+
+
+
+#secondbuttonValencia,
+#secondbuttonMIDValencia
+{
+    width: 50px;
+    right: 1410px;
+    display: none;  
+
+    
+   
+}
+
+#firstbuttonValencia,
+#firstbuttonMIDValencia{
+    position: absolute;
+    width: 55px;
+    left: 1400px;
+    
+   
+}
+
+#secondValencia,
+#secondMIDValencia{
+    position: relative;
+    display: none;
+    transition-delay: 0.3sec;
+    width: 1420px;
+    left: 42%;
+}
+.gk-players,
+.firstlist,
+.firstMIDlist,
+.fr-players{
+    align-items: center;
+    width: 1380px;
+    transition-delay:  0.3s;
+    display: flex;
+    position: relative;
+
+}
+.secondlist,
+.secondMIDlist{
+    align-items: center;
+    display: flex;
+    position: relative;
+    width: 840px;
+    left: -42%;
+    
+}
+
+#bioValencia1,
+#bioValencia1-1,
+#bioValencia2,
+#bioValencia2-1,
+#bioValencia3,
+#bioValencia3-1,
+#bioValencia3-2,
+#bioValencia3-3,
+#bioValencia3-4,
+#bioValencia4,
+#bioValencia4-1,
+#bioValencia4-2,
+#bioValencia4-3,
+#bioValencia4-4,
+#bioValencia5,
+#bioValencia5-1,
+#bioValencia5-2,
+#bioValencia5-3,
+#bioValencia5-4,
+#bioValencia6,
+#bioValencia6-1,
+#bioValencia6-2,
+#bioValencia6-3,
+#bioValencia6-4,
+#bioValencia7,
+#bioValencia7-1,
+#bioValencia7-2,
+#bioValencia7-3,
+#bioValencia7-4,
+#bioValencia8,
+#bioValencia8-1,
+#bioValencia8-2,
+#bioValencia8-3,
+#bioValencia8-4,
+#bioValencia9,
+#bioValencia9-1,
+#bioValencia9-2,
+#bioValencia9-3,
+#bioValencia9-4,
+#bioValencia10,
+#bioValencia10-1,
+#bioValencia10-2,
+#bioValencia10-3,
+#bioValencia10-4,
+#bioValencia11,
+#bioValencia11-1,
+#bioValencia11-2,
+#bioValencia11-3,
+#bioValencia11-4,
+#bioValencia12,
+#bioValencia12-1,
+#bioValencia12-2,
+#bioValencia12-3,
+#bioValencia12-4,
+#bioValencia13,
+#bioValencia13-1,
+#bioValencia13-2,
+#bioValencia13-3,
+#bioValencia13-4,
+#bioValencia14,
+#bioValencia14-1,
+#bioValencia14-2,
+#bioValencia14-3,
+#bioValencia14-4,
+#bioValencia15,
+#bioValencia15-1,
+#bioValencia15-2,
+#bioValencia16,
+#bioValencia16-1,
+#bioValencia16-2,
+#bioValencia17,
+#bioValencia17-1,
+#bioValencia17-2,
+#bioValencia18,
+#bioValencia18-1,
+#bioValencia18-2
+
+
+{
+    font-size:10px;
+    width: 25em;
+    height: 14em;
+    top: 10em;
+    border: 2px solid rgb(12, 0, 60) ;
+    border-radius: 10px;
+    position: absolute;
+    right: -1px;
+    background-color: rgb(208, 194, 122);
+    display: none;
+    z-index: 10;
+}
+#GKplayerVal1,
+#GKplayerVal2,
+#DEFplayerVal3,
+#DEFplayerVal4,
+#DEFplayerVal5,
+#DEFplayerVal6,
+#DEFplayerVal7,
+#DEFplayerVal8,
+#DEFplayerVal9,
+#DEFplayerVal10,
+#MIDplayerVal11,
+#MIDplayerVal12,
+#MIDplayerVal13,
+#MIDplayerVal14,
+#FORPlayerVal15,
+#FORPlayerVal16,
+#FORPlayerVal17,
+#FORPlayerVal18
+
+{
+    font-size:10px;
+    display: flex;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: relative;
+    margin: 1em;
+    margin-left: 0;
+    font-style: italic;
+    top:0em;
+}
+#GKspotVal1,
+#GKspotVal2
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 60.3em;
+    font-style: italic;
+    bottom:115.3em;
+}
+#DEFspotVal31,
+#DEFspotVal41,
+#DEFspotVal51,
+#DEFspotVal61,
+#DEFspotVal71,
+#DEFspotVal81,
+#DEFspotVal91,
+#DEFspotVal101
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 10em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotVal32,
+#DEFspotVal42,
+#DEFspotVal52,
+#DEFspotVal62,
+#DEFspotVal72,
+#DEFspotVal82,
+#DEFspotVal92,
+#DEFspotVal102
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 43em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotVal33,
+#DEFspotVal43,
+#DEFspotVal53,
+#DEFspotVal63,
+#DEFspotVal73,
+#DEFspotVal83,
+#DEFspotVal93,
+#DEFspotVal103
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 76em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotVal34,
+#DEFspotVal44,
+#DEFspotVal54,
+#DEFspotVal64,
+#DEFspotVal74,
+#DEFspotVal84,
+#DEFspotVal94,
+#DEFspotVal104
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 109em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#MIDspotVal111,
+#MIDspotVal121,
+#MIDspotVal131,
+#MIDspotVal141
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 10em;
+    font-style: italic;
+    bottom:45.2em;
+}
+
+#MIDspotVal112,
+#MIDspotVal122,
+#MIDspotVal132,
+#MIDspotVal142
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 43em;
+    font-style: italic;
+    bottom:45.2em;
+}
+#MIDspotVal113,
+#MIDspotVal123,
+#MIDspotVal133,
+#MIDspotVal143
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 76em;
+    font-style: italic;
+    bottom:45.2em;
+}
+
+#MIDspotVal114,
+#MIDspotVal124,
+#MIDspotVal134,
+#MIDspotVal144
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 109em;
+    font-style: italic;
+    bottom:45.2em;
+}
+
+#FORspotVal151,
+#FORspotVal161,
+#FORspotVal171,
+#FORspotVal181
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 30em;
+    font-style: italic;
+    bottom:8em;
+
+}
+
+#FORspotVal152,
+#FORspotVal162,
+#FORspotVal172,
+#FORspotVal182
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 86em;
+    font-style: italic;
+    bottom:8em;
+
+}
+
+.buttonSelectVal,
+.buttonSelectBackVal{
+    position:absolute;
+    color: white;
+    background-color:black;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    left: 6em;
+    top: 0em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+.buttonSelectVal:hover{
+    background-color:rgb(5, 160, 26) ;
+    transition-delay: 0.3s;
+   
+}
+.buttonSelectBackVal:hover{
+    background-color:rgb(255, 15, 15) ;
+    transition-delay: 0.3s;
+   
+}
+
+
+.buttonSelectDefMenuVal{
+    position:absolute;
+    color: white;
+    background-color:black;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    left: 3em;
+    top: 0.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.buttonSelectDefMenuVal a{
+    position: relative;
+    display: block;
+    text-align: center;
+}
+.buttonSelectDefMenuVal:hover{
+    background: linear-gradient( #ada681, yellow);
+    color: #000;
+    
+}
+
+
+.buttonSelectDefVal{
+    position: relative;
+    background: linear-gradient( #ada681, yellow);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 0.3em;
+    width: 50px;
+    height: 20px;
+}
+
+.buttonSelectDefVal:hover{
+    background: linear-gradient( #ada681, rgb(5, 160, 26));
+    transition-delay: 0.3s;
+    color :white;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+   
+}
+
+
+.defSelectVal{
+    left: 4em;
+    top: -1.5em;
+    width: 170px;
+    height: 200px;
+}
+
+
+.defSelectVal li {
+    position: relative;
+    display: none;
+    margin-left: 0.5em;
+    margin-bottom: 0em;
+    border-radius: 0.5em;
+    z-index: 50 ;
+    left: 10em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 1em;
+    font-size: 10px;
+    height: 25px;
+
+    
+   
+}
+.defSelectVal:hover li{
+    display: flex;
+}
+

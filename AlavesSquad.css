@@ -1,0 +1,915 @@
+.teamgloryAlaves{
+    width: 1420px;
+    height: 150px;
+    border-bottom: 10px solid black;
+   
+    border-radius: 0.3em;
+    position: relative;
+    background: linear-gradient( #ada681,white, blue);
+
+}
+
+a.infoAlaves,
+a.infoAlavesGK,
+a.infoAlavesFOR{
+    position: absolute;
+    left: 0em;
+    display: none;
+}
+
+
+a.iconAlaves{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    border-right: 2px solid #000;
+    padding-left: 1em;
+    
+}
+
+a.pic-iconAlaves img{
+    display: flex;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 2em;
+    top: 1em;
+    border: 1em;
+    fill: black;
+    background: none;
+    
+} 
+
+a.pic-iconAlaves{
+    bottom: 0em;
+    width: 175px;
+}
+a.pic-photoAlaves img{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: auto;
+    align-items: right;
+    padding-top: 0.56em;
+    left: -0.4em;
+    top: 0.74em;
+    
+    
+}
+a.pic-photoAlavesRafa img{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    width: 180px;
+    height: auto;
+    align-items: right;
+    padding-top: 0.56em;
+    left: -0.4em;
+    top: 2em;
+    
+    
+}
+a.pic-photoAlavesCARLOS img{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    width: 190px;
+    height: auto;
+    align-items: right;
+    padding-top: 0.56em;
+    left: -0.4em;
+    top: 1.2em;
+    
+    
+}
+
+a.pic-photoAlavesGK img{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: auto;
+    padding-top: 0.56em;
+    left: 0.5em;
+    top: 0.74em;
+    
+}
+.infoAlavesGK a.t-shirt-number-GKAlaves svg{
+    position: absolute;
+    padding-top: 3.3em;
+    padding-left: 0.6em;
+    fill:rgb(251, 59, 5);
+    stroke-width: 20px;
+    stroke: rgb(0, 0, 0);
+  
+}
+
+
+a.t-shirt-numberAlaves svg{
+    position: absolute;
+    left: 1.5em;
+    top: 7em;
+    fill:rgb(6, 89, 255);
+    stroke-width: 20px;
+    stroke:white;
+    border-color: 3px solid black;
+}
+
+.playerAlaves .infoAlaves {
+    position: absolute;
+    display: flex;
+}
+
+.infoAlaves h4,
+.infoAlavesFOR h4{
+    position: absolute;
+    font-size: 20px;
+    width: 42px;
+    height: 60px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    top: 0.2em;
+    left: 0.5em;
+    
+
+} 
+
+
+.infoAlavesGK{
+    position: absolute;
+    font-size: 20px;
+    width: 42px;
+    height: 60px;
+    display: flex;
+    color: white;
+
+}
+
+.infoAlavesGK h4{
+    color:rgb(0, 0, 0);
+    top: 0em;
+    left: -0.15em;
+  
+
+}
+.gk-playersAlaves{
+    align-items: center;
+    width: 1380px;
+    transition-delay:  0.3s;
+    display: flex;
+    position: relative;
+}
+
+.gk-playersAlaves h5{
+    font-size: 30px;
+    display: flex;
+    left: 0;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0em;
+    color: black;
+}
+.infoAlaves h5{
+    padding-left: 0.2em;
+}
+
+.infoAlavesFOR h5{
+    left: -0.5em;
+    top: 0;
+}
+.infoName{
+    position: absolute;
+    color: black;
+    z-index: 10;
+    font-size: 23px;
+    top: 192px;
+    left: 0;
+    width: 250px;
+    text-align: center;
+   
+
+}
+.infoAlaves h6,
+.infAlavesGK h6{
+    position: absolute;
+    font-size: 15px;
+    display: flex;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    opacity: 0.3;
+    top: 0;
+    left:0;
+}
+
+a.InfoFone{
+    position: absolute;
+    font-size: 15px;
+    background: linear-gradient( #ada681, white);
+    width: 250px;
+    height:65px;
+    top: 186px;
+    left: 0;
+    opacity:0.8;
+    border-radius: 0.5em;
+    border-top: 3px solid black;
+}
+.short h6{
+    left: 3px;
+}
+
+.goalkeepers,
+.defenders,
+.midfilders,
+.forwards{
+    margin-bottom: 1em;
+    height: 400px;
+    border-bottom: 3px solid rgb(12, 0, 60);
+    background-color: #dbd9bb;
+    border-radius: 0.3em;
+   
+}
+
+.goalkeepers{
+    border-top:  3px solid rgb(12, 0, 60);
+}
+
+
+
+#bioAlaves1,
+#bioAlaves1-1,
+#bioAlaves1-2,
+#bioAlaves2,
+#bioAlaves2-1,
+#bioAlaves2-2,
+#bioAlaves3,
+#bioAlaves3-1,
+#bioAlaves3-2,
+#bioAlaves4,
+#bioAlaves4-1,
+#bioAlaves4-2,
+#bioAlaves4-3,
+#bioAlaves4-4,
+#bioAlaves5,
+#bioAlaves5-1,
+#bioAlaves5-2,
+#bioAlaves5-3,
+#bioAlaves5-4,
+#bioAlaves6,
+#bioAlaves6-1,
+#bioAlaves6-2,
+#bioAlaves6-3,
+#bioAlaves6-4,
+#bioAlaves7,
+#bioAlaves7-1,
+#bioAlaves7-2,
+#bioAlaves7-3,
+#bioAlaves7-4,
+#bioAlaves8,
+#bioAlaves8-1,
+#bioAlaves8-2,
+#bioAlaves8-3,
+#bioAlaves8-4,
+#bioAlaves9,
+#bioAlaves9-1,
+#bioAlaves9-2,
+#bioAlaves9-3,
+#bioAlaves9-4,
+#bioAlaves10,
+#bioAlaves10-1,
+#bioAlaves10-2,
+#bioAlaves10-3,
+#bioAlaves10-4,
+#bioAlaves11,
+#bioAlaves11-1,
+#bioAlaves11-2,
+#bioAlaves11-3,
+#bioAlaves11-4,
+#bioAlaves12,
+#bioAlaves12-1,
+#bioAlaves12-2,
+#bioAlaves12-3,
+#bioAlaves12-4,
+#bioAlaves13,
+#bioAlaves13-1,
+#bioAlaves13-2,
+#bioAlaves13-3,
+#bioAlaves13-4,
+#bioAlaves14,
+#bioAlaves14-1,
+#bioAlaves14-2,
+#bioAlaves14-3,
+#bioAlaves14-4,
+#bioAlaves15,
+#bioAlaves15-1,
+#bioAlaves15-2,
+#bioAlaves15-3,
+#bioAlaves15-4,
+#bioAlaves16,
+#bioAlaves16-1,
+#bioAlaves16-2,
+#bioAlaves16-3,
+#bioAlaves16-4,
+#bioAlaves17,
+#bioAlaves17-1,
+#bioAlaves17-2,
+#bioAlaves17-3,
+#bioAlaves17-4,
+#bioAlaves18,
+#bioAlaves18-1,
+#bioAlaves18-2,
+#bioAlaves18-3,
+#bioAlaves18-4,
+#bioAlaves19,
+#bioAlaves19-1,
+#bioAlaves19-2,
+#bioAlaves19-3,
+#bioAlaves19-4,
+#bioAlaves20,
+#bioAlaves20-1,
+#bioAlaves20-2,
+#bioAlaves20-3,
+#bioAlaves20-4,
+#bioAlaves21,
+#bioAlaves21-1,
+#bioAlaves21-2,
+#bioAlaves22,
+#bioAlaves22-1,
+#bioAlaves22-2,
+#bioAlaves22-1,
+#bioAlaves22-2,
+#bioAlaves23,
+#bioAlaves23-1,
+#bioAlaves23-2
+
+{
+    font-size:10px;
+    width: 25em;
+    height: 14em;
+    top: 10em;
+    border: 2px solid rgb(12, 0, 60) ;
+    border-radius: 10px;
+    position: absolute;
+    right: -1px;
+    background-color: rgb(208, 194, 122);
+    display: none;
+    z-index: 10;
+}
+
+.flagCour img.flagsvgPortugal{
+    position: absolute;
+    left: 11em;
+    top: 3.5em;
+}
+.flagCour img.flagsvgMoz{
+    position: absolute;
+    left: 12em;
+    top: 3.5em;
+}
+
+.date{
+    position:absolute;
+    color: rgba(255, 255, 255, 0.593);
+    font-size: 15px;
+    top: 106px;
+    right: 150px;
+
+}
+
+.foot{
+    position: absolute;
+    color:black;
+    font-size: 15px;
+    padding: 5px;
+    top: 15px;
+    right: 25px;
+}
+.stepsvg{
+    position: relative;
+    color: black;
+    font-size: 25px;
+    top: 10px;
+    left: 127px;
+}
+
+.text-L{
+    font-size: 15px;
+    position: absolute;
+    top:70px;
+    left: 184px;
+    color: white;
+    z-index: 50;
+}
+
+.text-R{
+    font-size: 15px;
+    position: absolute;
+    top:85px;
+    left: 210px;
+    color: white;
+    z-index: 50;
+}
+
+.DEFlist,
+.listMID{
+    position: relative;
+    width: 1380px;
+    display: flex;
+   
+
+}
+
+.headerGK,
+.headerDEF,
+.headerMID,
+.headerFOR{
+    display: flex;
+    width: 1300px;
+    font-size: 50px;
+    position: relative;
+    left: 1em;
+    border-bottom: 3px solid #000;
+}
+
+.headername{
+    display: flex;
+    position: absolute;
+    left: 2em;
+    top: 20px;
+}
+
+.iconHead{
+    position: absolute;
+    top:10px;
+    right:1em;
+}
+.def-head-svg,
+.for-head-svg{
+    position: relative;
+    top: 11.4px;
+}
+
+.headerGKicon a.svg,
+.headerFORicon a.svg{
+    font-size: 50px;
+    position: relative;
+    top: 1em;
+    left: 5%;
+}
+.players-arrow {
+    font-size: 30px;
+    color: rgb(12, 0, 60);
+    position: absolute;
+    border: 3px solid rgb(12, 0, 60);
+    background-color: rgb(208, 194, 122);
+    border-radius: 0.1em;
+    cursor: pointer;
+    z-index: 50;
+    align-items: center;
+    height: 280px;
+}
+
+
+#secondbuttonAlaves,
+#secondbuttonMIDAlaves
+{
+    width: 50px;
+    right: 1410px;
+    display: none;  
+
+    
+   
+}
+
+#firstbuttonAlaves,
+#firstbuttonMIDAlaves{
+    position: absolute;
+    width: 55px;
+    left: 1400px;
+    
+   
+}
+
+#secondAlaves,
+#secondMIDAlaves{
+    position: relative;
+    display: none;
+    transition-delay: 0.3sec;
+    width: 1420px;
+    left: 42%;
+}
+.gk-players,
+.firstlist,
+.firstMIDlist,
+.fr-players{
+    align-items: center;
+    width: 1380px;
+    transition-delay:  0.3s;
+    display: flex;
+    position: relative;
+
+}
+.secondlist,
+.secondMIDlist{
+    align-items: center;
+    display: flex;
+    position: relative;
+    width: 840px;
+    left: -42%;
+    
+}
+
+
+.NT14,
+.AS4,
+.AS28,
+.IH10
+{
+   position: relative;
+   opacity: 50%;
+}
+
+#GKplayerAla1,
+#GKplayerAla2,
+#GKplayerAla3,
+#DEFplayerAla4,
+#DEFplayerAla5,
+#DEFplayerAla6,
+#DEFplayerAla7,
+#DEFplayerAla8,
+#DEFplayerAla9,
+#DEFplayerAla10,
+#DEFplayerAla11,
+#MIDplayerAla12,
+#MIDplayerAla13,
+#MIDplayerAla14,
+#MIDplayerAla15,
+#MIDplayerAla16,
+#MIDplayerAla17,
+#MIDplayerAla18,
+#MIDplayerAla19,
+#FORPlayerAla20,
+#FORPlayerAla21,
+#FORPlayerAla22,
+#FORPlayerAla23{
+    font-size:10px;
+    display: flex;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: relative;
+    margin: 1em;
+    margin-left: 0;
+    font-style: italic;
+    top:0em;
+}
+#GKspotAla1,
+#GKspotAla2,
+#GKspotAla3{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 60.3em;
+    font-style: italic;
+    bottom:115.3em;
+}
+
+#DEFspotAla41,
+#DEFspotAla51,
+#DEFspotAla61,
+#DEFspotAla71,
+#DEFspotAla81,
+#DEFspotAla91,
+#DEFspotAla101,
+#DEFspotAla111{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 10em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotAla42,
+#DEFspotAla52,
+#DEFspotAla62,
+#DEFspotAla72,
+#DEFspotAla82,
+#DEFspotAla92,
+#DEFspotAla102,
+#DEFspotAla112{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 43em;
+    font-style: italic;
+    bottom:82.2em;
+}
+#DEFspotAla43,
+#DEFspotAla53,
+#DEFspotAla63,
+#DEFspotAla73,
+#DEFspotAla83,
+#DEFspotAla93,
+#DEFspotAla103,
+#DEFspotAla113{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 76em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotAla44,
+#DEFspotAla54,
+#DEFspotAla64,
+#DEFspotAla74,
+#DEFspotAla84,
+#DEFspotAla94,
+#DEFspotAla104,
+#DEFspotAla114{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 109em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#MIDspotAla121,
+#MIDspotAla131,
+#MIDspotAla141,
+#MIDspotAla151,
+#MIDspotAla161,
+#MIDspotAla171,
+#MIDspotAla181,
+#MIDspotAla191{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 10em;
+    font-style: italic;
+    bottom:45.2em;
+}
+
+#MIDspotAla122,
+#MIDspotAla132,
+#MIDspotAla142,
+#MIDspotAla152,
+#MIDspotAla162,
+#MIDspotAla172,
+#MIDspotAla182,
+#MIDspotAla192{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 43em;
+    font-style: italic;
+    bottom:45.2em;
+}
+#MIDspotAla123,
+#MIDspotAla133,
+#MIDspotAla143,
+#MIDspotAla153,
+#MIDspotAla163,
+#MIDspotAla173,
+#MIDspotAla183,
+#MIDspotAla193{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 76em;
+    font-style: italic;
+    bottom:45.2em;
+}
+#MIDspotAla124,
+#MIDspotAla134,
+#MIDspotAla144,
+#MIDspotAla154,
+#MIDspotAla164,
+#MIDspotAla174,
+#MIDspotAla184,
+#MIDspotAla194{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 109em;
+    font-style: italic;
+    bottom:45.2em;
+}
+
+#FORspotAla201,
+#FORspotAla211,
+#FORspotAla221,
+#FORspotAla231{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 30em;
+    font-style: italic;
+    bottom:8em;
+
+}
+
+#FORspotAla202,
+#FORspotAla212,
+#FORspotAla222,
+#FORspotAla232{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 86em;
+    font-style: italic;
+    bottom:8em;
+
+}
+
+.buttonSelectAla,
+.buttonSelectBackAla{
+    position:absolute;
+    color: white;
+    background-color:black;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    left: 6em;
+    top: 0em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+.buttonSelectAla:hover{
+    background-color:rgb(5, 160, 26) ;
+    transition-delay: 0.3s;
+   
+}
+.buttonSelectBackAla:hover{
+    background-color:rgb(255, 15, 15) ;
+    transition-delay: 0.3s;
+   
+}
+
+
+.buttonSelectDefMenuAla{
+    position:absolute;
+    color: white;
+    background-color:black;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    left: 3em;
+    top: 0.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.buttonSelectDefMenuAla a{
+    position: relative;
+    display: block;
+    text-align: center;
+}
+.buttonSelectDefMenuAla:hover{
+    background: linear-gradient( #ada681, yellow);
+    color: #000;
+    
+}
+
+
+.buttonSelectDefAla{
+    position: relative;
+    background: linear-gradient( #ada681, yellow);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 0.3em;
+    width: 50px;
+    height: 20px;
+}
+
+.buttonSelectDefAla:hover{
+    background: linear-gradient( #ada681, rgb(5, 160, 26));
+    transition-delay: 0.3s;
+    color :white;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+   
+}
+
+
+.defSelectAla{
+    left: 4em;
+    top: -1.5em;
+    width: 170px;
+    height: 200px;
+   
+   
+}
+
+
+.defSelectAla li {
+    position: relative;
+    display: none;
+    margin-left: 0.5em;
+    margin-bottom: 0em;
+    border-radius: 0.5em;
+    z-index: 50 ;
+    left: 10em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 1em;
+    font-size: 10px;
+    height: 25px;
+
+    
+   
+}
+.defSelectAla:hover li{
+    display: flex;
+}
+

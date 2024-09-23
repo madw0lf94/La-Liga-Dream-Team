@@ -1,0 +1,822 @@
+.teamgloryGirona{
+    width: 1420px;
+    height: 150px;
+    border-bottom: 10px solid black;
+    /*background-color: #dbd9bb; */
+    border-radius: 0.3em;
+    position: relative;
+    background: linear-gradient( #ada681, white, rgb(201, 176, 16), rgb(208, 11, 11));
+
+}
+
+a.infoGirona,
+a.infoGironaGK,
+a.infoGironaFOR{
+    position: absolute;
+    left: 0em;
+    display: none;
+}
+
+
+a.iconGirona{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    border-right: 2px solid #000;
+    padding-left: 1em;
+    
+}
+
+a.pic-photoGirona img{
+    font-size: 25px;
+    display: flex;
+    width: 155px;
+    height: auto;
+    align-items: right;
+    padding-top: 0.56em;
+    left: 0em;
+    top: 0em;
+    
+    
+}
+
+
+a.pic-photoGironaGK img{
+    font-size: 25px;
+    display: flex;
+    width: 160px;
+    height: auto;
+    padding-top: 0.56em;
+    left: 0em;
+    top: 0em;
+    
+}
+a.pic-iconGirona img{
+    display: flex;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 2em;
+    top: 1em;
+    border: 1em;
+    fill: black;
+    background: none;
+    
+} 
+
+a.pic-iconGirona{
+    bottom: 0em;
+    width: 175px;
+}
+
+.infoGironaGK a.t-shirt-number-GKGirona svg{
+    position: absolute;
+    padding-top: 3.3em;
+    padding-left: 0.6em;
+    fill:rgb(0, 0, 0);
+    stroke-width: 20px;
+    stroke: rgb(243, 247, 243);
+  
+}
+
+
+a.t-shirt-numberGirona svg{
+    position: absolute;
+    left: 1.5em;
+    top: 7em;
+    fill:rgb(208, 11, 11);
+    stroke-width: 20px;
+    stroke:rgb(10, 79, 217);
+    border-color: 3px solid black;
+}
+
+.playerGetafe .infoGirona {
+    position: absolute;
+    display: flex;
+}
+
+.infoGirona h4,
+.infoGironaFOR h4{
+    position: absolute;
+    font-size: 20px;
+    width: 42px;
+    height: 60px;
+    display: flex;
+    color:white;
+    top: 0.2em;
+    left: 0.5em;
+    
+
+} 
+
+
+.infoGironaGK{
+    position: absolute;
+    font-size: 20px;
+    width: 42px;
+    height: 60px;
+    display: flex;
+    color: white;
+
+}
+
+.infoGironaGK h4{
+    color: rgb(244, 247, 244);
+    top: 0em;
+    left: -0.15em;
+  
+
+}
+.gk-playersGirona{
+    align-items: center;
+    width: 1380px;
+    transition-delay:  0.3s;
+    display: flex;
+    position: relative;
+}
+
+.gk-playersGirona h5{
+    font-size: 30px;
+    display: flex;
+    left: 0;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0em;
+    color: black;
+}
+.infoGirona h5{
+    padding-left: 0.2em;
+}
+
+.infoGironaFOR h5{
+    left: -0.5em;
+    top: 0;
+}
+.infoName{
+    position: absolute;
+    color: black;
+    z-index: 10;
+    font-size: 23px;
+    top: 192px;
+    left: 0;
+    width: 250px;
+    text-align: center;
+   
+
+}
+.infoGirona h6,
+.infoGironaGK h6{
+    position: absolute;
+    font-size: 15px;
+    display: flex;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    opacity: 0.3;
+    top: 0;
+    left:0;
+}
+
+a.InfoFone{
+    position: absolute;
+    font-size: 15px;
+    background: linear-gradient( #ada681, white);
+    width: 250px;
+    height:65px;
+    top: 186px;
+    left: 0;
+    opacity:0.8;
+    border-radius: 0.5em;
+    border-top: 3px solid black;
+}
+.short h6{
+    left: 3px;
+}
+
+.goalkeepers,
+.defenders,
+.midfilders,
+.forwards{
+    margin-bottom: 1em;
+    height: 400px;
+    border-bottom: 3px solid rgb(12, 0, 60);
+    background-color: #dbd9bb;
+    border-radius: 0.3em;
+   
+}
+
+.goalkeepers{
+    border-top:  3px solid rgb(12, 0, 60);
+}
+
+
+.flagCour img.flagsvgPortugal{
+    position: absolute;
+    left: 11em;
+    top: 3.5em;
+}
+.flagCour img.flagsvgMoz{
+    position: absolute;
+    left: 12em;
+    top: 3.5em;
+}
+
+.date{
+    position:absolute;
+    color: rgba(255, 255, 255, 0.593);
+    font-size: 15px;
+    top: 106px;
+    right: 150px;
+
+}
+
+.foot{
+    position: absolute;
+    color:black;
+    font-size: 15px;
+    padding: 5px;
+    top: 15px;
+    right: 25px;
+}
+.stepsvg{
+    position: relative;
+    color: black;
+    font-size: 25px;
+    top: 10px;
+    left: 127px;
+}
+
+.text-L{
+    font-size: 15px;
+    position: absolute;
+    top:70px;
+    left: 184px;
+    color: white;
+    z-index: 50;
+}
+
+.text-R{
+    font-size: 15px;
+    position: absolute;
+    top:85px;
+    left: 210px;
+    color: white;
+    z-index: 50;
+}
+
+.DEFlist,
+.listMID{
+    position: relative;
+    width: 1380px;
+    display: flex;
+   
+
+}
+
+.headerGK,
+.headerDEF,
+.headerMID,
+.headerFOR{
+    display: flex;
+    width: 1300px;
+    font-size: 50px;
+    position: relative;
+    left: 1em;
+    border-bottom: 3px solid #000;
+}
+
+.headername{
+    display: flex;
+    position: absolute;
+    left: 2em;
+    top: 20px;
+}
+
+.iconHead{
+    position: absolute;
+    top:10px;
+    right:1em;
+}
+.def-head-svg,
+.for-head-svg{
+    position: relative;
+    top: 11.4px;
+}
+
+.headerGKicon a.svg,
+.headerFORicon a.svg{
+    font-size: 50px;
+    position: relative;
+    top: 1em;
+    left: 5%;
+}
+.players-arrow {
+    font-size: 30px;
+    color: rgb(12, 0, 60);
+    position: absolute;
+    border: 3px solid rgb(12, 0, 60);
+    background-color: rgb(208, 194, 122);
+    border-radius: 0.1em;
+    cursor: pointer;
+    z-index: 50;
+    align-items: center;
+    height: 280px;
+}
+
+#secondbuttonGirona,
+#secondbuttonMIDGirona
+{
+    width: 50px;
+    right: 1410px;
+    display: none;  
+
+    
+   
+}
+
+#firstbuttonGirona,
+#firstbuttonMIDGirona{
+    position: absolute;
+    width: 55px;
+    left: 1400px;
+    
+   
+}
+
+#secondGirona,
+#secondMIDGirona{
+    position: relative;
+    display: none;
+    transition-delay: 0.3sec;
+    width: 1420px;
+    left: 42%;
+}
+.gk-players,
+.firstlist,
+.firstMIDlist,
+.fr-players{
+    align-items: center;
+    width: 1380px;
+    transition-delay:  0.3s;
+    display: flex;
+    position: relative;
+
+}
+.secondlist,
+.secondMIDlist{
+    align-items: center;
+    display: flex;
+    position: relative;
+    width: 840px;
+    left: -42%;
+    
+}
+
+#bioGirona1,
+#bioGirona1-1,
+#bioGirona2,
+#bioGirona2-1,
+#bioGirona3,
+#bioGirona3-1,
+#bioGirona4,
+#bioGirona4-1,
+#bioGirona4-2,
+#bioGirona4-3,
+#bioGirona4-4,
+#bioGirona5,
+#bioGirona5-1,
+#bioGirona5-2,
+#bioGirona5-3,
+#bioGirona5-4,
+#bioGirona6,
+#bioGirona6-1,
+#bioGirona6-2,
+#bioGirona6-3,
+#bioGirona6-4,
+#bioGirona7,
+#bioGirona7-1,
+#bioGirona7-2,
+#bioGirona7-3,
+#bioGirona7-4,
+#bioGirona8,
+#bioGirona8-1,
+#bioGirona8-2,
+#bioGirona8-3,
+#bioGirona8-4,
+#bioGirona9,
+#bioGirona9-1,
+#bioGirona9-2,
+#bioGirona9-3,
+#bioGirona9-4,
+#bioGirona10,
+#bioGirona10-1,
+#bioGirona10-2,
+#bioGirona10-3,
+#bioGirona10-4,
+#bioGirona11,
+#bioGirona11-1,
+#bioGirona11-2,
+#bioGirona11-3,
+#bioGirona11-4,
+#bioGirona12,
+#bioGirona12-1,
+#bioGirona12-2,
+#bioGirona12-3,
+#bioGirona12-4,
+#bioGirona13,
+#bioGirona13-1,
+#bioGirona13-2,
+#bioGirona13-3,
+#bioGirona13-4,
+#bioGirona14,
+#bioGirona14-1,
+#bioGirona14-2,
+#bioGirona15,
+#bioGirona15-1,
+#bioGirona15-2,
+#bioGirona16,
+#bioGirona16-1,
+#bioGirona16-2,
+#bioGirona17,
+#bioGirona17-1,
+#bioGirona17-2
+{
+    font-size:10px;
+    width: 25em;
+    height: 14em;
+    top: 10em;
+    border: 2px solid rgb(12, 0, 60) ;
+    border-radius: 10px;
+    position: absolute;
+    right: -1px;
+    background-color: rgb(208, 194, 122);
+    display: none;
+    z-index: 10;
+}
+
+#GKplayerGir1,
+#GKplayerGir2,
+#GKplayerGir3,
+#DEFplayerGir4,
+#DEFplayerGir5,
+#DEFplayerGir6,
+#DEFplayerGir7,
+#DEFplayerGir8,
+#DEFplayerGir9,
+#MIDplayerGir10,
+#MIDplayerGir11,
+#MIDplayerGir12,
+#MIDplayerGir13,
+#FORPlayerGir14,
+#FORPlayerGir15,
+#FORPlayerGir16,
+#FORPlayerGir17
+{
+    font-size:10px;
+    display: flex;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: relative;
+    margin: 1em;
+    margin-left: 0;
+    font-style: italic;
+    top:0em;
+}
+#GKspotGir1,
+#GKspotGir2,
+#GKspotGir3
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 60.3em;
+    font-style: italic;
+    bottom:115.3em;
+}
+#DEFspotGir41,
+#DEFspotGir51,
+#DEFspotGir61,
+#DEFspotGir71,
+#DEFspotGir81,
+#DEFspotGir91
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 10em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotGir42,
+#DEFspotGir52,
+#DEFspotGir62,
+#DEFspotGir72,
+#DEFspotGir82,
+#DEFspotGir92
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 43em;
+    font-style: italic;
+    bottom:82.2em;
+}
+#DEFspotGir43,
+#DEFspotGir53,
+#DEFspotGir63,
+#DEFspotGir73,
+#DEFspotGir83,
+#DEFspotGir93
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 76em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotGir44,
+#DEFspotGir54,
+#DEFspotGir64,
+#DEFspotGir74,
+#DEFspotGir84,
+#DEFspotGir94
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 109em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#MIDspotGir101,
+#MIDspotGir111,
+#MIDspotGir121,
+#MIDspotGir131
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 10em;
+    font-style: italic;
+    bottom:45.2em;
+}
+
+#MIDspotGir102,
+#MIDspotGir112,
+#MIDspotGir122,
+#MIDspotGir132
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 43em;
+    font-style: italic;
+    bottom:45.2em;
+}
+#MIDspotGir103,
+#MIDspotGir113,
+#MIDspotGir123,
+#MIDspotGir133
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 76em;
+    font-style: italic;
+    bottom:45.2em;
+}
+#MIDspotGir104,
+#MIDspotGir114,
+#MIDspotGir124,
+#MIDspotGir134
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 109em;
+    font-style: italic;
+    bottom:45.2em;
+}
+
+#FORspotGir141,
+#FORspotGir151,
+#FORspotGir161,
+#FORspotGir171
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 30em;
+    font-style: italic;
+    bottom:8em;
+
+}
+
+#FORspotGir142,
+#FORspotGir152,
+#FORspotGir162,
+#FORspotGir172
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 86em;
+    font-style: italic;
+    bottom:8em;
+
+}
+
+.buttonSelectGir,
+.buttonSelectBackGir{
+    position:absolute;
+    color: white;
+    background-color:black;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    left: 6em;
+    top: 0em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+.buttonSelectGir:hover{
+    background-color:rgb(5, 160, 26) ;
+    transition-delay: 0.3s;
+   
+}
+.buttonSelectBackGir:hover{
+    background-color:rgb(255, 15, 15) ;
+    transition-delay: 0.3s;
+   
+}
+
+
+.buttonSelectDefMenuGir{
+    position:absolute;
+    color: white;
+    background-color:black;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    left: 3em;
+    top: 0.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.buttonSelectDefMenuGir a{
+    position: relative;
+    display: block;
+    text-align: center;
+}
+.buttonSelectDefMenuGir:hover{
+    background: linear-gradient( #ada681, yellow);
+    color: #000;
+    
+}
+
+
+.buttonSelectDefGir{
+    position: relative;
+    background: linear-gradient( #ada681, yellow);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 0.3em;
+    width: 50px;
+    height: 20px;
+}
+
+.buttonSelectDefGir:hover{
+    background: linear-gradient( #ada681, rgb(5, 160, 26));
+    transition-delay: 0.3s;
+    color :white;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+   
+}
+
+
+.defSelectGir{
+    left: 4em;
+    top: -1.5em;
+    width: 170px;
+    height: 200px;
+   
+   
+}
+
+
+.defSelectGir li {
+    position: relative;
+    display: none;
+    margin-left: 0.5em;
+    margin-bottom: 0em;
+    border-radius: 0.5em;
+    z-index: 50 ;
+    left: 10em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 1em;
+    font-size: 10px;
+    height: 25px;
+
+    
+   
+}
+.defSelectGir:hover li{
+    display: flex;
+}

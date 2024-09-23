@@ -1,0 +1,922 @@
+.teamgloryOsasuna{
+    width: 1420px;
+    height: 150px;
+    border-bottom: 10px solid black;
+    /*background-color: #dbd9bb; */
+    border-radius: 0.3em;
+    position: relative;
+    background: linear-gradient( #ada681, red,rgb(211, 206, 154), rgb(9, 9, 110));
+
+}
+
+a.infoOsasuna,
+a.infoOsasunaGK,
+a.infoOsasunaFOR{
+    position: absolute;
+    left: 0em;
+    display: none;
+}
+
+
+a.iconOsasuna{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    border-right: 2px solid #000;
+    padding-left: 1em;
+    
+}
+
+a.pic-iconOsasuna img{
+    display: flex;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 2em;
+    top: 1em;
+    border: 1em;
+    fill: black;
+    background: none;
+    
+} 
+
+a.pic-iconOsasuna{
+    bottom: 0em;
+    width: 175px;
+}
+a.pic-photoOsasuna img{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    width: 165px;
+    height: auto;
+    align-items: right;
+    padding-top: 0.56em;
+    left: 0em;
+    top: 0.74em;
+    
+    
+}
+
+a.shadow img{
+    width: 145px;
+}
+
+a.pic-photoOsasunaGK img{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    width: 165px;
+    height: auto;
+    padding-top: 0.56em;
+    left: 0em;
+    top: 0.74em;
+    
+}
+.infoOsasunaGK a.t-shirt-number-GKOsasuna svg{
+    position: absolute;
+    padding-top: 7em;
+    left: 1em;
+    fill:rgb(255, 200, 0);
+    stroke-width: 20px;
+    stroke: rgb(215, 17, 17);
+  
+}
+
+
+a.t-shirt-numberOsasuna svg{
+    position: absolute;
+    left: 1.5em;
+    top: 7em;
+    fill:rgb(255, 6, 6);
+    stroke-width: 20px;
+    stroke:rgb(2, 17, 74);
+    border-color: 3px solid black;
+}
+
+.playerOsasuna .infoOsasuna {
+    position: absolute;
+    display: flex;
+}
+
+.infoOsasuna h4,
+.infoOsasunaFOR h4{
+    position: absolute;
+    font-size: 20px;
+    width: 42px;
+    height: 60px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    top: 0.2em;
+    left: 0.5em;
+    
+
+} 
+
+
+.infOsasunaGK{
+    position: absolute;
+    font-size: 20px;
+    width: 42px;
+    height: 60px;
+    display: flex;
+    color: white;
+
+}
+
+.infoOsasunaGK h4{
+    color:rgb(0, 0, 0);
+    top: 0em;
+    left: -0.2em;
+  
+
+}
+.gk-playersOsasuna{
+    align-items: center;
+    width: 1380px;
+    transition-delay:  0.3s;
+    display: flex;
+    position: relative;
+}
+
+.gk-playersOsasuna h5{
+    font-size: 30px;
+    display: flex;
+    left: 0;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0em;
+    color: black;
+}
+.infoOsasuna h5{
+    padding-left: 0.2em;
+}
+
+.infoOsasunaFOR h5{
+    left: -0.5em;
+    top: 0;
+}
+.infoName{
+    position: absolute;
+    color: black;
+    z-index: 10;
+    font-size: 23px;
+    top: 192px;
+    left: 0;
+    width: 250px;
+    text-align: center;
+   
+
+}
+.infoOsasuna h6,
+.infOsasunaGK h6{
+    position: absolute;
+    font-size: 15px;
+    display: flex;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    opacity: 0.3;
+    top: 0;
+    left:0;
+}
+
+a.InfoFone{
+    position: absolute;
+    font-size: 15px;
+    background: linear-gradient( #ada681, white);
+    width: 250px;
+    height:65px;
+    top: 186px;
+    left: 0;
+    opacity:0.8;
+    border-radius: 0.5em;
+    border-top: 3px solid black;
+}
+.short h6{
+    left: 3px;
+}
+
+.goalkeepers,
+.defenders,
+.midfilders,
+.forwards{
+    margin-bottom: 1em;
+    height: 400px;
+    border-bottom: 3px solid rgb(12, 0, 60);
+    background-color: #dbd9bb;
+    border-radius: 0.3em;
+   
+}
+
+.goalkeepers{
+    border-top:  3px solid rgb(12, 0, 60);
+}
+
+
+
+.flagCour img.flagsvgPortugal{
+    position: absolute;
+    left: 11em;
+    top: 3.5em;
+}
+.flagCour img.flagsvgMoz{
+    position: absolute;
+    left: 12em;
+    top: 3.5em;
+}
+
+.date{
+    position:absolute;
+    color: rgba(255, 255, 255, 0.593);
+    font-size: 15px;
+    top: 106px;
+    right: 150px;
+
+}
+
+.foot{
+    position: absolute;
+    color:black;
+    font-size: 15px;
+    padding: 5px;
+    top: 15px;
+    right: 25px;
+}
+.stepsvg{
+    position: relative;
+    color: black;
+    font-size: 25px;
+    top: 10px;
+    left: 127px;
+}
+
+.text-L{
+    font-size: 15px;
+    position: absolute;
+    top:70px;
+    left: 184px;
+    color: white;
+    z-index: 50;
+}
+
+.text-R{
+    font-size: 15px;
+    position: absolute;
+    top:85px;
+    left: 210px;
+    color: white;
+    z-index: 50;
+}
+
+.DEFlist,
+.listMID{
+    position: relative;
+    width: 1380px;
+    display: flex;
+   
+
+}
+
+.headerGK,
+.headerDEF,
+.headerMID,
+.headerFOR{
+    display: flex;
+    width: 1300px;
+    font-size: 50px;
+    position: relative;
+    left: 1em;
+    border-bottom: 3px solid #000;
+}
+
+.headername{
+    display: flex;
+    position: absolute;
+    left: 2em;
+    top: 20px;
+}
+
+.iconHead{
+    position: absolute;
+    top:10px;
+    right:1em;
+}
+.def-head-svg,
+.for-head-svg{
+    position: relative;
+    top: 11.4px;
+}
+
+.headerGKicon a.svg,
+.headerFORicon a.svg{
+    font-size: 50px;
+    position: relative;
+    top: 1em;
+    left: 5%;
+}
+.players-arrow {
+    font-size: 30px;
+    color: rgb(12, 0, 60);
+    position: absolute;
+    border: 3px solid rgb(12, 0, 60);
+    background-color: rgb(208, 194, 122);
+    border-radius: 0.1em;
+    cursor: pointer;
+    z-index: 50;
+    align-items: center;
+    height: 280px;
+}
+
+
+#secondbuttonOsasuna,
+#secondbuttonMIDOsasuna
+{
+    width: 50px;
+    right: 1410px;
+    display: none;  
+
+    
+   
+}
+
+#firstbuttonOsasuna,
+#firstbuttonMIDOsasuna{
+    position: absolute;
+    width: 55px;
+    left: 1400px;
+    
+   
+}
+
+#secondOsasuna,
+#secondMIDOsasuna{
+    position: relative;
+    display: none;
+    transition-delay: 0.3sec;
+    width: 1420px;
+    left: 42%;
+}
+.gk-players,
+.firstlist,
+.firstMIDlist,
+.fr-players{
+    align-items: center;
+    width: 1380px;
+    transition-delay:  0.3s;
+    display: flex;
+    position: relative;
+
+}
+.secondlist,
+.secondMIDlist{
+    align-items: center;
+    display: flex;
+    position: relative;
+    width: 840px;
+    left: -42%;
+    
+}
+
+#bioOsasuna1,
+#bioOsasuna1-1,
+#bioOsasuna2,
+#bioOsasuna2-1,
+#bioOsasuna3,
+#bioOsasuna3-1,
+#bioOsasuna3-2,
+#bioOsasuna3-3,
+#bioOsasuna3-4,
+#bioOsasuna4,
+#bioOsasuna4-1,
+#bioOsasuna4-2,
+#bioOsasuna4-3,
+#bioOsasuna4-4,
+#bioOsasuna5,
+#bioOsasuna5-1,
+#bioOsasuna5-2,
+#bioOsasuna5-3,
+#bioOsasuna5-4,
+#bioOsasuna6,
+#bioOsasuna6-1,
+#bioOsasuna6-2,
+#bioOsasuna6-3,
+#bioOsasuna6-4,
+#bioOsasuna7,
+#bioOsasuna7-1,
+#bioOsasuna7-2,
+#bioOsasuna7-3,
+#bioOsasuna7-4,
+#bioOsasuna8,
+#bioOsasuna8-1,
+#bioOsasuna8-2,
+#bioOsasuna8-3,
+#bioOsasuna8-4,
+#bioOsasuna9,
+#bioOsasuna9-1,
+#bioOsasuna9-2,
+#bioOsasuna9-3,
+#bioOsasuna9-4,
+#bioOsasuna10,
+#bioOsasuna10-1,
+#bioOsasuna10-2,
+#bioOsasuna10-3,
+#bioOsasuna10-4,
+#bioOsasuna11,
+#bioOsasuna11-1,
+#bioOsasuna11-2,
+#bioOsasuna11-3,
+#bioOsasuna11-4,
+#bioOsasuna12,
+#bioOsasuna12-1,
+#bioOsasuna12-2,
+#bioOsasuna12-3,
+#bioOsasuna12-4,
+#bioOsasuna13,
+#bioOsasuna13-1,
+#bioOsasuna13-2,
+#bioOsasuna13-3,
+#bioOsasuna13-4,
+#bioOsasuna14,
+#bioOsasuna14-1,
+#bioOsasuna14-2,
+#bioOsasuna14-3,
+#bioOsasuna14-4,
+#bioOsasuna15,
+#bioOsasuna15-1,
+#bioOsasuna15-2,
+#bioOsasuna15-3,
+#bioOsasuna15-4,
+#bioOsasuna16,
+#bioOsasuna16-1,
+#bioOsasuna16-2,
+#bioOsasuna16-3,
+#bioOsasuna16-4,
+#bioOsasuna17,
+#bioOsasuna17-1,
+#bioOsasuna17-2,
+#bioOsasuna17-3,
+#bioOsasuna17-4,
+#bioOsasuna18,
+#bioOsasuna18-1,
+#bioOsasuna18-2,
+#bioOsasuna18-3,
+#bioOsasuna18-4,
+#bioOsasuna19,
+#bioOsasuna19-1,
+#bioOsasuna19-2,
+#bioOsasuna19-3,
+#bioOsasuna19-4,
+#bioOsasuna20,
+#bioOsasuna20-1,
+#bioOsasuna20-2,
+#bioOsasuna20-3,
+#bioOsasuna20-4,
+#bioOsasuna21,
+#bioOsasuna21-1,
+#bioOsasuna21-2,
+#bioOsasuna21-3,
+#bioOsasuna21-4,
+#bioOsasuna22,
+#bioOsasuna22-1,
+#bioOsasuna22-2,
+#bioOsasuna23,
+#bioOsasuna23-1,
+#bioOsasuna23-2,
+#bioOsasuna24,
+#bioOsasuna24-1,
+#bioOsasuna24-2,
+#bioOsasuna25,
+#bioOsasuna25-1,
+#bioOsasuna25-2,
+#bioOsasuna26,
+#bioOsasuna26-1,
+#bioOsasuna26-2
+
+{
+    font-size:10px;
+    width: 25em;
+    height: 14em;
+    top: 10em;
+    border: 2px solid rgb(12, 0, 60) ;
+    border-radius: 10px;
+    position: absolute;
+    right: -1px;
+    background-color: rgb(208, 194, 122);
+    display: none;
+    z-index: 10;
+}
+
+#GKplayerOs1,
+#GKplayerOs2,
+#DEFplayerOs3,
+#DEFplayerOs4,
+#DEFplayerOs5,
+#DEFplayerOs6,
+#DEFplayerOs7,
+#DEFplayerOs8,
+#DEFplayerOs9,
+#DEFplayerOs10,
+#DEFplayerOs11,
+#DEFplayerOs12,
+#MIDplayerOs13,
+#MIDplayerOs14,
+#MIDplayerOs15,
+#MIDplayerOs16,
+#MIDplayerOs17,
+#MIDplayerOs18,
+#MIDplayerOs19,
+#MIDplayerOs20,
+#MIDplayerOs21,
+#FORPlayerOs22,
+#FORPlayerOs23,
+#FORPlayerOs24,
+#FORPlayerOs25,
+#FORPlayerOs26
+
+{
+    font-size:10px;
+    display: flex;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: relative;
+    margin: 1em;
+    margin-left: 0;
+    font-style: italic;
+    top:0em;
+}
+#GKspotOs1,
+#GKspotOs2
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 60.3em;
+    font-style: italic;
+    bottom:115.3em;
+}
+#DEFspotOs31,
+#DEFspotOs41,
+#DEFspotOs51,
+#DEFspotOs61,
+#DEFspotOs71,
+#DEFspotOs81,
+#DEFspotOs91,
+#DEFspotOs101,
+#DEFspotOs111,
+#DEFspotOs121
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 10em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotOs32,
+#DEFspotOs42,
+#DEFspotOs52,
+#DEFspotOs62,
+#DEFspotOs72,
+#DEFspotOs82,
+#DEFspotOs92,
+#DEFspotOs102,
+#DEFspotOs112,
+#DEFspotOs122
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 43em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotOs33,
+#DEFspotOs43,
+#DEFspotOs53,
+#DEFspotOs63,
+#DEFspotOs73,
+#DEFspotOs83,
+#DEFspotOs93,
+#DEFspotOs103,
+#DEFspotOs113,
+#DEFspotOs123
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 76em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotOs34,
+#DEFspotOs44,
+#DEFspotOs54,
+#DEFspotOs64,
+#DEFspotOs74,
+#DEFspotOs84,
+#DEFspotOs94,
+#DEFspotOs104,
+#DEFspotOs114,
+#DEFspotOs124
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 109em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#MIDspotOs131,
+#MIDspotOs141,
+#MIDspotOs151,
+#MIDspotOs161,
+#MIDspotOs171,
+#MIDspotOs181,
+#MIDspotOs191,
+#MIDspotOs201,
+#MIDspotOs211
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 10em;
+    font-style: italic;
+    bottom:45.2em;
+}
+
+#MIDspotOs132,
+#MIDspotOs142,
+#MIDspotOs152,
+#MIDspotOs162,
+#MIDspotOs172,
+#MIDspotOs182,
+#MIDspotOs192,
+#MIDspotOs202,
+#MIDspotOs212
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 43em;
+    font-style: italic;
+    bottom:45.2em;
+}
+#MIDspotOs133,
+#MIDspotOs143,
+#MIDspotOs153,
+#MIDspotOs163,
+#MIDspotOs173,
+#MIDspotOs183,
+#MIDspotOs193,
+#MIDspotOs203,
+#MIDspotOs213
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 76em;
+    font-style: italic;
+    bottom:45.2em;
+}
+#MIDspotOs134,
+#MIDspotOs144,
+#MIDspotOs154,
+#MIDspotOs164,
+#MIDspotOs174,
+#MIDspotOs184,
+#MIDspotOs194,
+#MIDspotOs204,
+#MIDspotOs214
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 109em;
+    font-style: italic;
+    bottom:45.2em;
+}
+
+#FORspotOs221,
+#FORspotOs231,
+#FORspotOs241,
+#FORspotOs251,
+#FORspotOs261
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 30em;
+    font-style: italic;
+    bottom:8em;
+
+}
+
+#FORspotOs222,
+#FORspotOs232,
+#FORspotOs242,
+#FORspotOs252,
+#FORspotOs262
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 86em;
+    font-style: italic;
+    bottom:8em;
+
+}
+
+.buttonSelectOs,
+.buttonSelectBackOs{
+    position:absolute;
+    color: white;
+    background-color:black;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    left: 6em;
+    top: 0em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+.buttonSelectOs:hover{
+    background-color:rgb(5, 160, 26) ;
+    transition-delay: 0.3s;
+   
+}
+.buttonSelectBackOs:hover{
+    background-color:rgb(255, 15, 15) ;
+    transition-delay: 0.3s;
+   
+}
+
+
+.buttonSelectDefMenuOs{
+    position:absolute;
+    color: white;
+    background-color:black;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    left: 3em;
+    top: 0.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.buttonSelectDefMenuOs a{
+    position: relative;
+    display: block;
+    text-align: center;
+}
+.buttonSelectDefMenuMal:hover{
+    background: linear-gradient( #ada681, yellow);
+    color: #000;
+    
+}
+
+
+.buttonSelectDefOs{
+    position: relative;
+    background: linear-gradient( #ada681, yellow);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 0.3em;
+    width: 50px;
+    height: 20px;
+}
+
+.buttonSelectDefOs:hover{
+    background: linear-gradient( #ada681, rgb(5, 160, 26));
+    transition-delay: 0.3s;
+    color :white;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+   
+}
+
+
+.defSelectOs{
+    left: 4em;
+    top: -1.5em;
+    width: 170px;
+    height: 200px;
+   
+   
+}
+
+
+.defSelectOs li {
+    position: relative;
+    display: none;
+    margin-left: 0.5em;
+    margin-bottom: 0em;
+    border-radius: 0.5em;
+    z-index: 50 ;
+    left: 10em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 1em;
+    font-size: 10px;
+    height: 25px;
+
+    
+   
+}
+.defSelectOs:hover li{
+    display: flex;
+}
+

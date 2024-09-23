@@ -1,0 +1,1024 @@
+.teamgloryCadiz{
+    width: 1420px;
+    height: 150px;
+    border-bottom: 10px solid black;
+    /*background-color: #dbd9bb; */
+    border-radius: 0.3em;
+    position: relative;
+    background: linear-gradient( #ada681, yellow, blue);
+
+}
+
+a.infoCadiz,
+a.infoCadizGK,
+a.infoCadizFOR{
+    position: absolute;
+    left: 0em;
+    display: none;
+}
+
+
+a.iconCadiz{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    border-right: 2px solid #000;
+    padding-left: 1em;
+    
+}
+
+a.pic-iconCadiz img{
+    display: flex;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 2em;
+    top: 1em;
+    border: 1em;
+    fill: black;
+    background: none;
+    
+} 
+
+a.pic-iconCadiz{
+    bottom: 0em;
+    width: 175px;
+}
+a.pic-photoCadiz img{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    width: 145px;
+    height: auto;
+    align-items: right;
+    padding-top: 0.56em;
+    left: 0em;
+    top: 1em;
+    
+    
+}
+a.pic-photoCadizIsaac img{
+    font-size: 25px;
+    display: flex;
+    width: 160px;
+    height: auto;
+    align-items: right;
+    padding-top: 0.56em;
+    left: 0em;
+    top: 0em;
+
+}
+a.pic-photoCadizJorge img{
+    font-size: 25px;
+    display: flex;
+    width: 157px;
+    height: auto;
+    align-items: right;
+    padding-top: 0.56em;
+    left: 0.3em;
+    top: -0.2em;
+
+}
+a.pic-photoCadizLucas img{
+    font-size: 56px;
+    display: flex;
+    width: 146px;
+    height: auto;
+    align-items: right;
+    padding-top: 0.56em;
+    left: 0.3em;
+    top: -0.2em;
+
+}
+a.pic-photoCadizOusou img{
+    font-size: 80px;
+    display: flex;
+    width: 185px;
+    height: auto;
+    align-items: right;
+    padding-top: 0.56em;
+    left: 0.2em;
+    top: 1em;
+
+}
+a.pic-photoCadizRuben img{
+    font-size: 25px;
+    display: flex;
+    width: 200px;
+    height: auto;
+    align-items: right;
+    padding-top: 0.56em;
+    left: 0.2em;
+    top: 0.7em;
+
+}
+a.pic-photoCadizJose img{
+    font-size: 25px;
+    display: flex;
+    width: 145px;
+    height: auto;
+    align-items: right;
+    padding-top: 0.56em;
+    left: 0em;
+    top: 0.2em;
+
+}
+a.pic-photoCadizRK img{
+    font-size: 60px;
+    display: flex;
+    width: 180px;
+    height: auto;
+    align-items: right;
+    padding-top: 0.56em;
+    left: 0em;
+    top: 0.2em;
+
+}
+
+a.pic-photoCadizRK2 img{
+    font-size: 25px;
+    display: flex;
+    width: 155px;
+    height: auto;
+    align-items: right;
+    padding-top: 0.56em;
+    left: 0em;
+    top: 0.2em;
+
+}
+
+a.pic-photoCadizGK img{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    width: 145px;
+    height: auto;
+    padding-top: 0.56em;
+    left: 0em;
+    top: 1em;
+    
+}
+.infoCadizGK a.t-shirt-number-GKCadiz svg{
+    position: absolute;
+    padding-top: 3.3em;
+    padding-left: 0.6em;
+    fill:black;
+    stroke-width: 20px;
+    stroke: rgb(159, 255, 4);
+  
+}
+
+
+a.t-shirt-numberCadiz svg{
+    position: absolute;
+    left: 1.5em;
+    top: 7em;
+    fill:yellow;
+    stroke-width: 20px;
+    stroke:blue;
+    border-color: 3px solid black;
+}
+
+.playerCadiz .infoCadiz {
+    position: absolute;
+    display: flex;
+}
+
+.infoCadiz h4,
+.infoCadizFOR h4{
+    position: absolute;
+    font-size: 20px;
+    width: 42px;
+    height: 60px;
+    display: flex;
+    color: BLUE;
+    top: 0.2em;
+    left: 0.5em;
+    
+
+} 
+
+
+.infoCadizGK{
+    position: absolute;
+    font-size: 20px;
+    width: 42px;
+    height: 60px;
+    display: flex;
+    color: white;
+
+}
+
+.infoCadizGK h4{
+    color:white;
+    top: 0em;
+    left: -0.15em;
+  
+
+}
+.gk-playersCadiz{
+    align-items: center;
+    width: 1380px;
+    transition-delay:  0.3s;
+    display: flex;
+    position: relative;
+}
+
+.gk-playersCadiz h5{
+    font-size: 30px;
+    display: flex;
+    left: 0;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0em;
+    color: black;
+}
+.infoCadiz h5{
+    padding-left: 0.2em;
+}
+
+.infoCadizFOR h5{
+    left: -0.5em;
+    top: 0;
+}
+.infoName{
+    position: absolute;
+    color: black;
+    z-index: 10;
+    font-size: 23px;
+    top: 192px;
+    left: 0;
+    width: 250px;
+    text-align: center;
+   
+
+}
+.infoCadiz h6,
+.infoCadizGK h6{
+    position: absolute;
+    font-size: 15px;
+    display: flex;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    opacity: 0.3;
+    top: 0;
+    left:0;
+}
+
+a.InfoFone{
+    position: absolute;
+    font-size: 15px;
+    background: linear-gradient( #ada681, white);
+    width: 250px;
+    height:65px;
+    top: 186px;
+    left: 0;
+    opacity:0.8;
+    border-radius: 0.5em;
+    border-top: 3px solid black;
+}
+.short h6{
+    left: 3px;
+}
+
+.goalkeepers,
+.defenders,
+.midfilders,
+.forwards{
+    margin-bottom: 1em;
+    height: 400px;
+    border-bottom: 3px solid rgb(12, 0, 60);
+    background-color: #dbd9bb;
+    border-radius: 0.3em;
+   
+}
+
+.goalkeepers{
+    border-top:  3px solid rgb(12, 0, 60);
+}
+
+
+.flagCour img.flagsvgPortugal{
+    position: absolute;
+    left: 11em;
+    top: 3.5em;
+}
+.flagCour img.flagsvgMoz{
+    position: absolute;
+    left: 12em;
+    top: 3.5em;
+}
+
+.date{
+    position:absolute;
+    color: rgba(255, 255, 255, 0.593);
+    font-size: 15px;
+    top: 106px;
+    right: 150px;
+
+}
+
+.oldAlmeria2{
+    position:absolute;
+    color: white;
+    font-size: 15px;
+    top: 87px;
+    right: 175px;
+}
+.foot{
+    position: absolute;
+    color:black;
+    font-size: 15px;
+    padding: 5px;
+    top: 15px;
+    right: 25px;
+}
+.stepsvg{
+    position: relative;
+    color: black;
+    font-size: 25px;
+    top: 10px;
+    left: 127px;
+}
+
+.text-L{
+    font-size: 15px;
+    position: absolute;
+    top:70px;
+    left: 184px;
+    color: white;
+    z-index: 50;
+}
+
+.text-R{
+    font-size: 15px;
+    position: absolute;
+    top:85px;
+    left: 210px;
+    color: white;
+    z-index: 50;
+}
+
+.DEFlist,
+.listMID{
+    position: relative;
+    width: 1380px;
+    display: flex;
+   
+
+}
+
+.headerGK,
+.headerDEF,
+.headerMID,
+.headerFOR{
+    display: flex;
+    width: 1300px;
+    font-size: 50px;
+    position: relative;
+    left: 1em;
+    border-bottom: 3px solid #000;
+}
+
+.headername{
+    display: flex;
+    position: absolute;
+    left: 2em;
+    top: 20px;
+}
+
+.iconHead{
+    position: absolute;
+    top:10px;
+    right:1em;
+}
+.def-head-svg,
+.for-head-svg{
+    position: relative;
+    top: 11.4px;
+}
+
+.headerGKicon a.svg,
+.headerFORicon a.svg{
+    font-size: 50px;
+    position: relative;
+    top: 1em;
+    left: 5%;
+}
+.players-arrow {
+    font-size: 30px;
+    color: rgb(12, 0, 60);
+    position: absolute;
+    border: 3px solid rgb(12, 0, 60);
+    background-color: rgb(208, 194, 122);
+    border-radius: 0.1em;
+    cursor: pointer;
+    z-index: 50;
+    align-items: center;
+    height: 280px;
+}
+
+
+#secondbuttonCadiz,
+#secondbuttonMIDCadiz
+{
+    width: 50px;
+    right: 1410px;
+    display: none;  
+
+    
+   
+}
+
+#firstbuttonCadiz,
+#firstbuttonMIDCadiz{
+    position: absolute;
+    width: 55px;
+    left: 1400px;
+    
+   
+}
+
+#secondCadiz,
+#secondMIDCadiz{
+    position: relative;
+    display: none;
+    transition-delay: 0.3sec;
+    width: 1420px;
+    left: 42%;
+}
+.gk-players,
+.firstlist,
+.firstMIDlist,
+.fr-players{
+    align-items: center;
+    width: 1380px;
+    transition-delay:  0.3s;
+    display: flex;
+    position: relative;
+
+}
+.secondlist,
+.secondMIDlist{
+    align-items: center;
+    display: flex;
+    position: relative;
+    width: 840px;
+    left: -42%;
+    
+}
+
+.JH15,
+.MM14,
+.RK12,
+.AF8
+{
+   position: relative;
+   opacity: 50%;
+}
+
+#bioCadiz1,
+#bioCadiz1-1,
+#bioCadiz2,
+#bioCadiz2-1,
+#bioCadiz3,
+#bioCadiz3-1,
+#bioCadiz3-2,
+#bioCadiz3-3,
+#bioCadiz3-4,
+#bioCadiz4,
+#bioCadiz4-1,
+#bioCadiz4-2,
+#bioCadiz4-3,
+#bioCadiz4-4,
+#bioCadiz5,
+#bioCadiz5-1,
+#bioCadiz5-2,
+#bioCadiz5-3,
+#bioCadiz5-4,
+#bioCadiz6,
+#bioCadiz6-1,
+#bioCadiz6-2,
+#bioCadiz6-3,
+#bioCadiz6-4,
+#bioCadiz7,
+#bioCadiz7-1,
+#bioCadiz7-2,
+#bioCadiz7-3,
+#bioCadiz7-4,
+#bioCadiz8,
+#bioCadiz8-1,
+#bioCadiz8-2,
+#bioCadiz8-3,
+#bioCadiz8-4,
+#bioCadiz9,
+#bioCadiz9-1,
+#bioCadiz9-2,
+#bioCadiz9-3,
+#bioCadiz9-4,
+#bioCadiz10,
+#bioCadiz10-1,
+#bioCadiz10-2,
+#bioCadiz10-3,
+#bioCadiz10-4,
+#bioCadiz11,
+#bioCadiz11-1,
+#bioCadiz11-2,
+#bioCadiz11-3,
+#bioCadiz11-4,
+#bioCadiz12,
+#bioCadiz12-1,
+#bioCadiz12-2,
+#bioCadiz12-3,
+#bioCadiz12-4,
+#bioCadiz13,
+#bioCadiz13-1,
+#bioCadiz13-2,
+#bioCadiz13-3,
+#bioCadiz13-4,
+#bioCadiz14,
+#bioCadiz14-1,
+#bioCadiz14-2,
+#bioCadiz14-3,
+#bioCadiz14-4,
+#bioCadiz15,
+#bioCadiz15-1,
+#bioCadiz15-2,
+#bioCadiz15-3,
+#bioCadiz15-4,
+#bioCadiz16,
+#bioCadiz16-1,
+#bioCadiz16-2,
+#bioCadiz16-3,
+#bioCadiz16-4,
+#bioCadiz17,
+#bioCadiz17-1,
+#bioCadiz17-2,
+#bioCadiz17-3,
+#bioCadiz17-4,
+#bioCadiz18,
+#bioCadiz18-1,
+#bioCadiz18-2,
+#bioCadiz18-3,
+#bioCadiz18-4,
+#bioCadiz19,
+#bioCadiz19-1,
+#bioCadiz19-2,
+#bioCadiz19-3,
+#bioCadiz19-4,
+#bioCadiz20,
+#bioCadiz20-1,
+#bioCadiz20-2,
+#bioCadiz20-3,
+#bioCadiz20-4,
+#bioCadiz21,
+#bioCadiz21-1,
+#bioCadiz21-2,
+#bioCadiz21-3,
+#bioCadiz21-4,
+#bioCadiz22,
+#bioCadiz22-1,
+#bioCadiz22-2,
+#bioCadiz22-3,
+#bioCadiz22-4,
+#bioCadiz23,
+#bioCadiz23-1,
+#bioCadiz23-2,
+#bioCadiz24,
+#bioCadiz24-1,
+#bioCadiz24-2,
+#bioCadiz25,
+#bioCadiz25-1,
+#bioCadiz25-2,
+#bioCadiz26,
+#bioCadiz26-1,
+#bioCadiz26-2
+{
+    font-size:10px;
+    width: 25em;
+    height: 14em;
+    top: 10em;
+    border: 2px solid rgb(12, 0, 60) ;
+    border-radius: 10px;
+    position: absolute;
+    right: -1px;
+    background-color: rgb(208, 194, 122);
+    display: none;
+    z-index: 10;
+}
+
+
+#GKplayerCad1,
+#GKplayerCad2,
+#DEFplayerCad3,
+#DEFplayerCad4,
+#DEFplayerCad5,
+#DEFplayerCad6,
+#DEFplayerCad7,
+#DEFplayerCad8,
+#DEFplayerCad9,
+#DEFplayerCad10,
+#DEFplayerCad11,
+#DEFplayerCad12,
+#MIDplayerCad13,
+#MIDplayerCad14,
+#MIDplayerCad15,
+#MIDplayerCad16,
+#MIDplayerCad17,
+#MIDplayerCad18,
+#MIDplayerCad19,
+#MIDplayerCad20,
+#MIDplayerCad21,
+#MIDplayerCad22,
+#FORPlayerCad23,
+#FORPlayerCad24,
+#FORPlayerCad25,
+#FORPlayerCAd26
+{
+    font-size:10px;
+    display: flex;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: relative;
+    margin: 1em;
+    margin-left: 0;
+    font-style: italic;
+    top:0em;
+}
+#GKspotCad1,
+#GKspotCad2
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 60.3em;
+    font-style: italic;
+    bottom:115.3em;
+}
+#DEFspotCad31,
+#DEFspotCad41,
+#DEFspotCad51,
+#DEFspotCad61,
+#DEFspotCad71,
+#DEFspotCad81,
+#DEFspotCad91,
+#DEFspotCad101,
+#DEFspotCad111,
+#DEFspotCad121
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 10em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotCad32,
+#DEFspotCad42,
+#DEFspotCad52,
+#DEFspotCad62,
+#DEFspotCad72,
+#DEFspotCad82,
+#DEFspotCad92,
+#DEFspotCad102,
+#DEFspotCad112,
+#DEFspotCad122
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 43em;
+    font-style: italic;
+    bottom:82.2em;
+}
+#DEFspotCad33,
+#DEFspotCad43,
+#DEFspotCad53,
+#DEFspotCad63,
+#DEFspotCad73,
+#DEFspotCad83,
+#DEFspotCad93,
+#DEFspotCad103,
+#DEFspotCad113,
+#DEFspotCad123
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 76em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotCad34,
+#DEFspotCad44,
+#DEFspotCad54,
+#DEFspotCad64,
+#DEFspotCad74,
+#DEFspotCad84,
+#DEFspotCad94,
+#DEFspotCad104,
+#DEFspotCad114,
+#DEFspotCad124
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 109em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+
+#MIDspotCad131,
+#MIDspotCad141,
+#MIDspotCad151,
+#MIDspotCad161,
+#MIDspotCad171,
+#MIDspotCad181,
+#MIDspotCad191,
+#MIDspotCad201,
+#MIDspotCad211,
+#MIDspotCad221
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 10em;
+    font-style: italic;
+    bottom:45.2em;
+}
+
+#MIDspotCad132,
+#MIDspotCad142,
+#MIDspotCad152,
+#MIDspotCad162,
+#MIDspotCad172,
+#MIDspotCad182,
+#MIDspotCad192,
+#MIDspotCad202,
+#MIDspotCad212,
+#MIDspotCad222
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 43em;
+    font-style: italic;
+    bottom:45.2em;
+}
+#MIDspotCad133,
+#MIDspotCad143,
+#MIDspotCad153,
+#MIDspotCad163,
+#MIDspotCad173,
+#MIDspotCad183,
+#MIDspotCad193,
+#MIDspotCad203,
+#MIDspotCad213,
+#MIDspotCad223
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 76em;
+    font-style: italic;
+    bottom:45.2em;
+}
+#MIDspotCad134,
+#MIDspotCad144,
+#MIDspotCad154,
+#MIDspotCad164,
+#MIDspotCad174,
+#MIDspotCad184,
+#MIDspotCad194,
+#MIDspotCad204,
+#MIDspotCad214,
+#MIDspotCad224
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 109em;
+    font-style: italic;
+    bottom:45.2em;
+}
+
+#FORspotCad231,
+#FORspotCad241,
+#FORspotCad251,
+#FORspotCad261
+
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 30em;
+    font-style: italic;
+    bottom:8em;
+
+}
+#FORspotCad232,
+#FORspotCad242,
+#FORspotCad252,
+#FORspotCad262{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 86em;
+    font-style: italic;
+    bottom:8em;
+
+}
+
+.buttonSelectCad,
+.buttonSelectBackCad{
+    position:absolute;
+    color: white;
+    background-color:black;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    left: 6em;
+    top: 0em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+.buttonSelectCad:hover{
+    background-color:rgb(5, 160, 26) ;
+    transition-delay: 0.3s;
+   
+}
+.buttonSelectBackCad:hover{
+    background-color:rgb(255, 15, 15) ;
+    transition-delay: 0.3s;
+   
+}
+
+
+.buttonSelectDefMenuCad{
+    position:absolute;
+    color: white;
+    background-color:black;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    left: 3em;
+    top: 0.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.buttonSelectDefMenuCad a{
+    position: relative;
+    display: block;
+    text-align: center;
+}
+.buttonSelectDefMenuCad:hover{
+    background: linear-gradient( #ada681, yellow);
+    color: #000;
+    
+}
+
+
+.buttonSelectDefCad{
+    position: relative;
+    background: linear-gradient( #ada681, yellow);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 0.3em;
+    width: 50px;
+    height: 20px;
+}
+
+.buttonSelectDefCad:hover{
+    background: linear-gradient( #ada681, rgb(5, 160, 26));
+    transition-delay: 0.3s;
+    color :white;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+   
+}
+
+
+.defSelectCad{
+    left: 4em;
+    top: -1.5em;
+    width: 170px;
+    height: 200px;
+   
+   
+}
+
+
+.defSelectCad li {
+    position: relative;
+    display: none;
+    margin-left: 0.5em;
+    margin-bottom: 0em;
+    border-radius: 0.5em;
+    z-index: 50 ;
+    left: 10em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 1em;
+    font-size: 10px;
+    height: 25px;
+
+    
+   
+}
+.defSelectCad:hover li{
+    display: flex;
+}

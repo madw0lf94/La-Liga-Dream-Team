@@ -1,0 +1,882 @@
+
+.teamgloryReal{
+    width: 1420px;
+    height: 150px;
+    border-bottom: 10px solid black;
+    border-radius: 0.3em;
+    position: relative;
+    background: linear-gradient( #ada681, white,yellow, blue);
+
+}
+
+.info{
+    position: absolute;
+    left: 1;
+
+}
+
+a.icon{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    color: #000;
+    border-right: 2px solid #000;
+    padding-left: 1em;
+    
+}
+
+a.pic-icon img{
+    display:flex;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 2em;
+    top: 1em;
+    border: 1em;
+    fill: black;
+    background: none;
+    
+} 
+
+a.pic-icon svg{
+    color: #000;
+    display: flex;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 2em;
+    top: 1em;
+    border: 1em;
+    border-radius: 3em;
+ 
+    
+}
+
+a.pic-photo img{
+    font-size: 25px;
+    width: 180px;
+    height: auto; 
+    align-items:center;
+    padding-top: 1.5em;
+    padding-left: 1.5em;
+    
+}
+
+.info .t-shirt-number svg{
+    position: absolute;
+    padding-top: 7em;
+    padding-left: 1.4em;
+    fill: white;
+    stroke-width: 30px;
+    stroke: gold;
+}
+
+.info .t-shirt-number-GK svg{
+    position: absolute;
+    padding-top: 7em;
+    padding-left: 1.4em;
+    fill: #8ad85a;
+    stroke-width: 30px;
+    stroke: white;
+    
+}
+
+.player .info {
+    position: absolute;
+    display: flex;
+}
+
+h4{
+    position: absolute;
+    padding-top: 2.2em;
+    padding-left: 0.7em;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+} 
+.GKRM h4{
+    color: white;
+}
+
+
+h5{
+    font-size: 30px;
+    padding-top: 3em;
+    padding-left: 0.7em;
+    display: flex;
+    left: 0;
+    position: absolute;
+    width: 90px;
+    height: 0px;
+}
+
+h6{
+    position: absolute;
+    top: 0;
+    padding-top: 9em;
+    padding-left:2.5em;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 60px;
+    left: 1em;
+}
+
+.short h6{
+    left: 3px;
+}
+
+.goalkeepers,
+.defenders,
+.midfilders,
+.forwards{
+    margin-bottom: 1em;
+    height: 400px;
+    border-bottom: 3px solid rgb(12, 0, 60);
+    background-color: #dbd9bb;
+    border-radius: 0.3em;
+   
+}
+
+.goalkeepers{
+    border-top:  3px solid rgb(12, 0, 60);
+}
+.gk-players h5,
+.fr-players h5{
+    padding-left: 1em;
+}
+
+.buttonSeeClose{
+    background-color:rgb(53, 27, 154) ;
+    font-size: 10px;
+    width: 200px;
+    height: 20px;
+    border-radius: 1em;
+    position:absolute;
+    display: block;
+    bottom: 2px;
+    right:25px;
+    transition-delay: 0.3s;
+    z-index: 50;
+}
+
+
+.buttonSeeClose:hover{
+    background-color:rgb(12, 0, 60);;
+    transition-delay: 0.3s;
+}
+
+
+.buttonInfo{
+    color: white;
+    position: relative;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+.nationality{
+    position: absolute;
+    color:#000;
+    font-size: 15px;
+    padding: 10px;
+    right: 125px;
+}
+.Ninfo{
+    position: absolute;
+    color:white;
+    font-size: 15px;
+    padding: 10px;
+    left: 7px;
+    top: 25px;
+    align-content: center;
+}
+.flagsvg{
+    position: absolute;
+    right: 125px;
+    top: 25px;
+}
+
+.age{
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    top: 55px;
+    right: 130px;
+}
+.date{
+    position:absolute;
+    color: rgba(255, 255, 255, 0.593);
+    font-size: 15px;
+    top: 106px;
+    right: 150px;
+
+}
+.dateLunin{
+    position:absolute;
+    color: rgba(255, 255, 255, 0.593);
+    font-size: 15px;
+    top: 106px;
+    right: 156px;
+}
+.old{
+    position:absolute;
+    color: white;
+    font-size: 15px;
+    top: 82px;
+    right: 175px;
+}
+.foot{
+    position: absolute;
+    color:black;
+    font-size: 15px;
+    padding: 5px;
+    top: 15px;
+    right: 25px;
+}
+.stepsvg{
+    position: relative;
+    color: black;
+    font-size: 25px;
+    top: 10px;
+    left: 127px;
+}
+
+.text-L{
+    font-size: 15px;
+    position: absolute;
+    top:70px;
+    left: 184px;
+    color: white;
+    z-index: 50;
+}
+
+.text-R{
+    font-size: 15px;
+    position: absolute;
+    top:85px;
+    left: 210px;
+    color: white;
+    z-index: 50;
+}
+
+.Kepa h6{
+    padding-left: 3em;
+    font-size: 13px;
+    padding-top: 11em;
+}
+
+.defenders .NACHO h6,
+.midfilders .CAMAVINGA h6,
+.midfilders .CEBALLOS h6{
+    padding-left: 3.2em;
+    padding-top: 9em;
+}
+
+.DEFlist,
+.listMID{
+    position: relative;
+    width: 1380px;
+    display: flex;
+   
+
+}
+
+.headerGK,
+.headerDEF,
+.headerMID,
+.headerFOR{
+    display: flex;
+    width: 1300px;
+    font-size: 50px;
+    position: relative;
+    left: 1em;
+    border-bottom: 3px solid #000;
+}
+
+.headername{
+    display: flex;
+    position: absolute;
+    left: 2em;
+    top: 20px;
+}
+
+.iconHead{
+    position: absolute;
+    top:10px;
+    right:1em;
+}
+.def-head-svg,
+.for-head-svg{
+    position: relative;
+    top: 11.4px;
+}
+
+.headerGKicon a.svg,
+.headerFORicon a.svg{
+    font-size: 50px;
+    position: relative;
+    top: 1em;
+    left: 5%;
+}
+    
+.players-arrow {
+    font-size: 30px;
+    color: rgb(12, 0, 60);
+    position: absolute;
+    border: 3px solid rgb(12, 0, 60);
+    background: linear-gradient( #ada681, white);
+    border-radius: 0.1em;
+    cursor: pointer;
+    z-index: 50;
+    align-items: center;
+    height: 280px;
+}
+
+.players-arrow:hover{
+    background: linear-gradient( #c9b553, white);
+    transition-delay: 0.3s;
+}
+
+#secondbutton,
+#secondbuttonMID{
+    width: 50px;
+    right: 1410px;
+    display: none;  
+
+    
+   
+}
+
+#firstbutton,
+#firstbuttonMID{
+    position: absolute;
+    width: 55px;
+    left: 1400px;
+    
+   
+}
+
+#second,
+#secondMID{
+    position: relative;
+    display: none;
+    transition-delay: 0.3sec;
+    width: 1420px;
+    left: 42%;
+}
+.gk-players,
+.firstlist,
+.firstMIDlist,
+.fr-players{
+    align-items: center;
+    width: 1380px;
+    transition-delay:  0.3s;
+    display: flex;
+    position: relative;
+
+}
+.secondlist,
+.secondMIDlist{
+    align-items: center;
+    display: flex;
+    position: relative;
+    width: 840px;
+    left: -42%;
+    
+}
+
+
+.JB h6, .AT h6{
+    width: 55px;
+}
+
+#bioTC,
+#bioTC2,
+#bioKepa,
+#bioKepa2,
+#bioLunin,
+#bioLunin2,
+#bioCarvajal,
+#bioCarvajal2,
+#bioCarvajal3,
+#bioCarvajal4,
+#bioCarvajal5,
+#bioMilitao,
+#bioMilitao2,
+#bioMilitao3,
+#bioMilitao4,
+#bioMilitao5,
+#bioAlaba,
+#bioAlaba2,
+#bioAlaba3,
+#bioAlaba4,
+#bioAlaba5,
+#bioNacho,
+#bioNacho2,
+#bioNacho3,
+#bioNacho4,
+#bioNacho5,
+#bioVasquez,
+#bioVasquez2,
+#bioVasquez3,
+#bioVasquez4,
+#bioVasquez5,
+#bioFran,
+#bioFran2,
+#bioFran3,
+#bioFran4,
+#bioFran5,
+#bioRudiger,
+#bioRudiger2,
+#bioRudiger3,
+#bioRudiger4,
+#bioRudiger5,
+#bioMendy,
+#bioMendy2,
+#bioMendy3,
+#bioMendy4,
+#bioMendy5,
+#bioJude,
+#bioJude2,
+#bioJude3,
+#bioJude4,
+#bioJude5,
+#bioKroos,
+#bioKroos2,
+#bioKroos3,
+#bioKroos4,
+#bioKroos5,
+#bioModric,
+#bioModric2,
+#bioModric3,
+#bioModric4,
+#bioModric5,
+#bioCamavinga,
+#bioCamavinga2,
+#bioCamavinga3,
+#bioCamavinga4,
+#bioCamavinga5,
+#bioFede,
+#bioFede2,
+#bioFede3,
+#bioFede4,
+#bioFede5,
+#bioTcho,
+#bioTcho2,
+#bioTcho3,
+#bioTcho4,
+#bioTcho5,
+#bioCeb,
+#bioCeb2,
+#bioCeb3,
+#bioCeb4,
+#bioCeb5,
+#bioArda,
+#bioArda2,
+#bioArda3,
+#bioArda4,
+#bioArda5,
+#bioVini,
+#bioVini2,
+#bioVini3,
+#bioRodrygo,
+#bioRodrygo2,
+#bioRodrygo3,
+#bioJoselu,
+#bioJoselu2,
+#bioJoselu3,
+#bioBrahim,
+#bioBrahim2,
+#bioBrahim3
+{
+    font-size:10px;
+    width: 25em;
+    height: 14em;
+    top: 10em;
+    border: 2px solid rgb(12, 0, 60) ;
+    border-radius: 10px;
+    position: absolute;
+    right: -1px;
+    background-color: rgb(208, 194, 122);
+    display: none;
+    z-index: 10;
+}
+#GKPlayerTibo,
+#GKPlayerLunin,
+#GKPlayerKepa,
+#DEFplayerCarvajal,
+#DEFplayerMilitao,
+#DEFplayerAlaba,
+#DEFplayerNacho,
+#DEFplayerVasquez,
+#DEFplayerFran,
+#DEFplayerRudiger,
+#DEFplayerMendy,
+#MIDplayerJude,
+#MIDplayerKroos,
+#MIDplayerModric,
+#MIDplayerCama,
+#MIDplayerFede,
+#MIDplayerTcho,
+#MIDplayerCeba,
+#MIDplayerArda,
+#FORplayerVin,
+#FORplayerRod,
+#FORplayerJos,
+#FORplayerBrahim{
+    font-size:10px;
+    display: flex;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: relative;
+    margin: 1em;
+    margin-left: 0;
+    font-style: italic;
+    top:0em;
+} 
+
+#GKspotTibo,
+#GKspotLunin,
+#GKspotKepa{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 60.3em;
+    font-style: italic;
+    bottom:115.3em;
+}
+
+#DEFspotCarvajal1,
+#DEFspotMilitao1,
+#DEFspotAlaba1,
+#DEFspotNacho1,
+#DEFspotVasquez1,
+#DEFspotFran1,
+#DEFspotRudiger1,
+#DEFspotMendy1{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 10em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotCarvajal2,
+#DEFspotMilitao2,
+#DEFspotAlaba2,
+#DEFspotNacho2,
+#DEFspotVasquez2,
+#DEFspotFran2,
+#DEFspotRudiger2,
+#DEFspotMendy2{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 43em;
+    font-style: italic;
+    bottom:82.2em;
+}
+#DEFspotCarvajal3,
+#DEFspotMilitao3,
+#DEFspotAlaba3,
+#DEFspotNacho3,
+#DEFspotVasquez3,
+#DEFspotFran3,
+#DEFspotRudiger3,
+#DEFspotMendy3{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 76em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotCarvajal4,
+#DEFspotMilitao4,
+#DEFspotAlaba4,
+#DEFspotNacho4,
+#DEFspotVasquez4,
+#DEFspotFran4,
+#DEFspotRudiger4,
+#DEFspotMendy4{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 109em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#MIDspotJude1,
+#MIDspotKroos1,
+#MIDspotModric1,
+#MIDspotCama1,
+#MIDspotFede1,
+#MIDspotTcho1,
+#MIDspotCeba1,
+#MIDspotArda1{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 10em;
+    font-style: italic;
+    bottom:45.2em;
+}
+
+#MIDspotJude2,
+#MIDspotKroos2,
+#MIDspotModric2,
+#MIDspotCama2,
+#MIDspotFede2,
+#MIDspotTcho2,
+#MIDspotCeba2,
+#MIDspotArda2{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 43em;
+    font-style: italic;
+    bottom:45.2em;
+}
+#MIDspotJude3,
+#MIDspotKroos3,
+#MIDspotModric3,
+#MIDspotCama3,
+#MIDspotFede3,
+#MIDspotTcho3,
+#MIDspotCeba3,
+#MIDspotArda3{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 76em;
+    font-style: italic;
+    bottom:45.2em;
+}
+#MIDspotJude4,
+#MIDspotKroos4,
+#MIDspotModric4,
+#MIDspotCama4,
+#MIDspotFede4,
+#MIDspotTcho4,
+#MIDspotCeba4,
+#MIDspotArda4{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 109em;
+    font-style: italic;
+    bottom:45.2em;
+}
+
+#FORspotVin1,
+#FORspotRod1,
+#FORspotJos1,
+#FORspotBrahim1{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 30em;
+    font-style: italic;
+    bottom:8em;
+
+}
+
+#FORspotVin2,
+#FORspotRod2,
+#FORspotJos2,
+#FORspotBrahim2{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 86em;
+    font-style: italic;
+    bottom:8em;
+
+}
+
+.buttonSelect,
+.buttonSelectBack{
+    position:absolute;
+    color: white;
+    background-color:black;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    left: 6em;
+    top: 0em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+.buttonSelect:hover{
+    background-color:rgb(5, 160, 26) ;
+    transition-delay: 0.3s;
+   
+}
+.buttonSelectBack:hover{
+    background-color:rgb(255, 15, 15) ;
+    transition-delay: 0.3s;
+   
+}
+
+
+.buttonSelectDefMenu{
+    position:absolute;
+    color: white;
+    background-color:black;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    left: -4em;
+    top: 0.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.buttonSelectDefMenu:hover{
+    background: linear-gradient( #ada681, yellow);
+    transition-delay: 0.3s;
+    color: #000;
+    
+}
+
+
+.buttonSelectDef{
+    background: linear-gradient( #ada681, yellow);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 0.3em;
+}
+
+.buttonSelectDef:hover{
+    background: linear-gradient( #ada681, rgb(5, 160, 26));
+    transition-delay: 0.3s;
+    color :white;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+   
+}
+
+
+.defSelect{
+    left: 14em;
+    top: -1.5em;
+   
+   
+}
+
+
+.defSelect li {
+    display: none;
+    margin: 1em;
+    border-radius: 0.5em;
+    z-index: 50 ;
+    left: 1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+   
+}
+.defSelect:hover li{
+    display: flex;
+    
+   
+    
+}
+
+

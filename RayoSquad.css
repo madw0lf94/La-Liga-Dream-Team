@@ -1,0 +1,863 @@
+.teamgloryRayo{
+    width: 1420px;
+    height: 150px;
+    border-bottom: 10px solid black;
+    /*background-color: #dbd9bb; */
+    border-radius: 0.3em;
+    position: relative;
+    background: linear-gradient( #ada681,white,rgb(217, 207, 100), rgb(212, 54, 54));
+
+}
+
+a.infoRayo,
+a.infoRayoGK,
+a.infoRayoFOR{
+    position: absolute;
+    left: 0em;
+    display: none;
+}
+
+
+a.iconRayo{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    border-right: 2px solid #000;
+    padding-left: 1em;
+    
+}
+
+a.pic-iconRayo img{
+    display: flex;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 2em;
+    top: 1em;
+    border: 1em;
+    fill: black;
+    background: none;
+    
+} 
+
+a.pic-iconRayo{
+    bottom: 0em;
+    width: 175px;
+}
+a.pic-photoRayo img{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: auto;
+    align-items: right;
+    padding-top: 0.56em;
+    left: 0.2em;
+    top: 0.74em;
+    
+    
+}
+
+
+a.pic-photoRayoGK img{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: auto;
+    padding-top: 0.56em;
+    left: 0.2em;
+    top: 0.74em;
+    
+}
+.infoRayoGK a.t-shirt-number-GKRayo svg{
+    position: absolute;
+    padding-top: 7em;
+    left: 1em;
+    fill:black;
+    stroke-width: 20px;
+    stroke: rgb(217, 207, 100);
+  
+}
+
+
+a.t-shirt-numberRayo svg{
+    position: absolute;
+    left: 1.5em;
+    top: 7em;
+    fill:rgb(255, 255, 255);
+    stroke-width: 20px;
+    stroke:rgb(255, 45, 45);
+    border-color: 3px solid black;
+}
+
+.playerRayo .infoRayo {
+    position: absolute;
+    display: flex;
+}
+
+.infoRayo h4,
+.infRayoFOR h4{
+    position: absolute;
+    font-size: 20px;
+    width: 42px;
+    height: 60px;
+    display: flex;
+    color: rgb(0, 0, 0);
+    top: 0.2em;
+    left: 0.5em;
+    
+
+} 
+
+
+.infRayoGK{
+    position: absolute;
+    font-size: 20px;
+    width: 42px;
+    height: 60px;
+    display: flex;
+    color: white;
+
+}
+
+.infoRayoGK h4{
+    color:rgb(255, 252, 252);
+    top: 0em;
+    left: -0.2em;
+  
+
+}
+.gk-playersRayo{
+    align-items: center;
+    width: 1380px;
+    transition-delay:  0.3s;
+    display: flex;
+    position: relative;
+}
+
+.gk-playersRayo h5{
+    font-size: 30px;
+    display: flex;
+    left: 0;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0em;
+    color: black;
+}
+.infoRayo h5{
+    padding-left: 0.2em;
+}
+
+.infoRayoFOR h5{
+    left: -0.5em;
+    top: 0;
+}
+.infoName{
+    position: absolute;
+    color: black;
+    z-index: 10;
+    font-size: 23px;
+    top: 192px;
+    left: 0;
+    width: 250px;
+    text-align: center;
+   
+
+}
+.infoRayo h6,
+.infRayoGK h6{
+    position: absolute;
+    font-size: 15px;
+    display: flex;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    opacity: 0.3;
+    top: 0;
+    left:0;
+}
+
+a.InfoFone{
+    position: absolute;
+    font-size: 15px;
+    background: linear-gradient( #ada681, white);
+    width: 250px;
+    height:65px;
+    top: 186px;
+    left: 0;
+    opacity:0.8;
+    border-radius: 0.5em;
+    border-top: 3px solid black;
+}
+.short h6{
+    left: 3px;
+}
+
+.goalkeepers,
+.defenders,
+.midfilders,
+.forwards{
+    margin-bottom: 1em;
+    height: 400px;
+    border-bottom: 3px solid rgb(12, 0, 60);
+    background-color: #dbd9bb;
+    border-radius: 0.3em;
+   
+}
+
+.goalkeepers{
+    border-top:  3px solid rgb(12, 0, 60);
+}
+
+
+.flagCour img.flagsvgPortugal{
+    position: absolute;
+    left: 11em;
+    top: 3.5em;
+}
+.flagCour img.flagsvgMoz{
+    position: absolute;
+    left: 12em;
+    top: 3.5em;
+}
+
+.date{
+    position:absolute;
+    color: rgba(255, 255, 255, 0.593);
+    font-size: 15px;
+    top: 106px;
+    right: 150px;
+
+}
+
+.foot{
+    position: absolute;
+    color:black;
+    font-size: 15px;
+    padding: 5px;
+    top: 15px;
+    right: 25px;
+}
+.stepsvg{
+    position: relative;
+    color: black;
+    font-size: 25px;
+    top: 10px;
+    left: 127px;
+}
+
+.text-L{
+    font-size: 15px;
+    position: absolute;
+    top:70px;
+    left: 184px;
+    color: white;
+    z-index: 50;
+}
+
+.text-R{
+    font-size: 15px;
+    position: absolute;
+    top:85px;
+    left: 210px;
+    color: white;
+    z-index: 50;
+}
+
+.DEFlist,
+.listMID{
+    position: relative;
+    width: 1380px;
+    display: flex;
+   
+
+}
+
+.headerGK,
+.headerDEF,
+.headerMID,
+.headerFOR{
+    display: flex;
+    width: 1300px;
+    font-size: 50px;
+    position: relative;
+    left: 1em;
+    border-bottom: 3px solid #000;
+}
+
+.headername{
+    display: flex;
+    position: absolute;
+    left: 2em;
+    top: 20px;
+}
+
+.iconHead{
+    position: absolute;
+    top:10px;
+    right:1em;
+}
+.def-head-svg,
+.for-head-svg{
+    position: relative;
+    top: 11.4px;
+}
+
+.headerGKicon a.svg,
+.headerFORicon a.svg{
+    font-size: 50px;
+    position: relative;
+    top: 1em;
+    left: 5%;
+}
+.players-arrow {
+    font-size: 30px;
+    color: rgb(12, 0, 60);
+    position: absolute;
+    border: 3px solid rgb(12, 0, 60);
+    background-color: rgb(208, 194, 122);
+    border-radius: 0.1em;
+    cursor: pointer;
+    z-index: 50;
+    align-items: center;
+    height: 280px;
+}
+
+
+
+#secondbuttonRayo,
+#secondbuttonMIDRayo
+{
+    width: 50px;
+    right: 1410px;
+    display: none;  
+
+    
+   
+}
+
+#firstbuttonRayo,
+#firstbuttonMIDRayo{
+    position: absolute;
+    width: 55px;
+    left: 1400px;
+    
+   
+}
+
+#secondRayo,
+#secondMIDRayo{
+    position: relative;
+    display: none;
+    transition-delay: 0.3sec;
+    width: 1420px;
+    left: 42%;
+}
+.gk-players,
+.firstlist,
+.firstMIDlist,
+.fr-players{
+    align-items: center;
+    width: 1380px;
+    transition-delay:  0.3s;
+    display: flex;
+    position: relative;
+
+}
+.secondlist,
+.secondMIDlist{
+    align-items: center;
+    display: flex;
+    position: relative;
+    width: 840px;
+    left: -42%;
+    
+}
+
+.AM16,
+.AE12,
+.MG16,
+.RG14
+{
+   position: relative;
+   opacity: 50%;
+}
+
+#bioRayo1,
+#bioRayo1-1,
+#bioRayo2,
+#bioRayo2-1,
+#bioRayo2-2,
+#bioRayo2-3,
+#bioRayo2-4,
+#bioRayo3,
+#bioRayo3-1,
+#bioRayo3-2,
+#bioRayo3-3,
+#bioRayo3-4,
+#bioRayo4,
+#bioRayo4-1,
+#bioRayo4-2,
+#bioRayo4-3,
+#bioRayo4-4,
+#bioRayo5,
+#bioRayo5-1,
+#bioRayo5-2,
+#bioRayo5-3,
+#bioRayo5-4,
+#bioRayo6,
+#bioRayo6-1,
+#bioRayo6-2,
+#bioRayo6-3,
+#bioRayo6-4,
+#bioRayo7,
+#bioRayo7-1,
+#bioRayo7-2,
+#bioRayo7-3,
+#bioRayo7-4,
+#bioRayo8,
+#bioRayo8-1,
+#bioRayo8-2,
+#bioRayo8-3,
+#bioRayo8-4,
+#bioRayo9,
+#bioRayo9-1,
+#bioRayo9-2,
+#bioRayo9-3,
+#bioRayo9-4,
+#bioRayo10,
+#bioRayo10-1,
+#bioRayo10-2,
+#bioRayo10-3,
+#bioRayo10-4,
+#bioRayo11,
+#bioRayo11-1,
+#bioRayo11-2,
+#bioRayo11-3,
+#bioRayo11-4,
+#bioRayo12,
+#bioRayo12-1,
+#bioRayo12-2,
+#bioRayo12-3,
+#bioRayo12-4,
+#bioRayo13,
+#bioRayo13-1,
+#bioRayo13-2,
+#bioRayo13-3,
+#bioRayo13-4,
+#bioRayo14,
+#bioRayo14-1,
+#bioRayo14-2,
+#bioRayo14-3,
+#bioRayo14-4,
+#bioRayo15,
+#bioRayo15-1,
+#bioRayo15-2,
+#bioRayo16,
+#bioRayo16-1,
+#bioRayo16-2,
+#bioRayo17,
+#bioRayo17-1,
+#bioRayo17-2,
+#bioRayo18,
+#bioRayo18-1,
+#bioRayo18-2
+
+{
+    font-size:10px;
+    width: 25em;
+    height: 14em;
+    top: 10em;
+    border: 2px solid rgb(12, 0, 60) ;
+    border-radius: 10px;
+    position: absolute;
+    right: -1px;
+    background-color: rgb(208, 194, 122);
+    display: none;
+    z-index: 10;
+}
+
+#GKplayerRay1,
+#DEFplayerRay2,
+#DEFplayerRay3,
+#DEFplayerRay4,
+#DEFplayerRay5,
+#DEFplayerRay6,
+#DEFplayerRay7,
+#DEFplayerRay8,
+#DEFplayerRay9,
+#MIDplayerRay10,
+#MIDplayerRay11,
+#MIDplayerRay12,
+#MIDplayerRay13,
+#MIDplayerRay14,
+#FORPlayerRay15,
+#FORPlayerRay16,
+#FORPlayerRay17,
+#FORPlayerRay18
+
+
+{
+    font-size:10px;
+    display: flex;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: relative;
+    margin: 1em;
+    margin-left: 0;
+    font-style: italic;
+    top:0em;
+}
+#GKspotRay1
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 60.3em;
+    font-style: italic;
+    bottom:115.3em;
+}
+#DEFspotRay21,
+#DEFspotRay31,
+#DEFspotRay41,
+#DEFspotRay51,
+#DEFspotRay61,
+#DEFspotRay71,
+#DEFspotRay81,
+#DEFspotRay91
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 10em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotRay22,
+#DEFspotRay32,
+#DEFspotRay42,
+#DEFspotRay52,
+#DEFspotRay62,
+#DEFspotRay72,
+#DEFspotRay82,
+#DEFspotRay92
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 43em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotRay23,
+#DEFspotRay33,
+#DEFspotRay43,
+#DEFspotRay53,
+#DEFspotRay63,
+#DEFspotRay73,
+#DEFspotRay83,
+#DEFspotRay93
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 76em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotRay24,
+#DEFspotRay34,
+#DEFspotRay44,
+#DEFspotRay54,
+#DEFspotRay64,
+#DEFspotRay74,
+#DEFspotRay84,
+#DEFspotRay94
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 109em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#MIDspotRay101,
+#MIDspotRay111,
+#MIDspotRay121,
+#MIDspotRay131,
+#MIDspotRay141
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 10em;
+    font-style: italic;
+    bottom:45.2em;
+}
+
+#MIDspotRay102,
+#MIDspotRay112,
+#MIDspotRay122,
+#MIDspotRay132,
+#MIDspotRay142
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 43em;
+    font-style: italic;
+    bottom:45.2em;
+}
+#MIDspotRay103,
+#MIDspotRay113,
+#MIDspotRay123,
+#MIDspotRay133,
+#MIDspotRay143
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 76em;
+    font-style: italic;
+    bottom:45.2em;
+}
+
+#MIDspotRay104,
+#MIDspotRay114,
+#MIDspotRay124,
+#MIDspotRay134,
+#MIDspotRay144
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 109em;
+    font-style: italic;
+    bottom:45.2em;
+}
+
+#FORspotRay151,
+#FORspotRay161,
+#FORspotRay171,
+#FORspotRay181
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 30em;
+    font-style: italic;
+    bottom:8em;
+
+}
+
+#FORspotRay152,
+#FORspotRay162,
+#FORspotRay172,
+#FORspotRay182
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 86em;
+    font-style: italic;
+    bottom:8em;
+
+}
+
+.buttonSelectRay,
+.buttonSelectBacRay{
+    position:absolute;
+    color: white;
+    background-color:black;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    left: 6em;
+    top: 0em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+.buttonSelectRay:hover{
+    background-color:rgb(5, 160, 26) ;
+    transition-delay: 0.3s;
+   
+}
+.buttonSelectBackRay:hover{
+    background-color:rgb(255, 15, 15) ;
+    transition-delay: 0.3s;
+   
+}
+
+
+.buttonSelectDefMenuRay{
+    position:absolute;
+    color: white;
+    background-color:black;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    left: 3em;
+    top: 0.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.buttonSelectDefMenuRay a{
+    position: relative;
+    display: block;
+    text-align: center;
+}
+.buttonSelectDefMenuRay:hover{
+    background: linear-gradient( #ada681, yellow);
+    color: #000;
+    
+}
+
+
+.buttonSelectDefRay{
+    position: relative;
+    background: linear-gradient( #ada681, yellow);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 0.3em;
+    width: 50px;
+    height: 20px;
+}
+
+.buttonSelectDefRay:hover{
+    background: linear-gradient( #ada681, rgb(5, 160, 26));
+    transition-delay: 0.3s;
+    color :white;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+   
+}
+
+
+.defSelectRay{
+    left: 4em;
+    top: -1.5em;
+    width: 170px;
+    height: 200px;
+   
+   
+}
+
+
+.defSelectRay li {
+    position: relative;
+    display: none;
+    margin-left: 0.5em;
+    margin-bottom: 0em;
+    border-radius: 0.5em;
+    z-index: 50 ;
+    left: 10em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 1em;
+    font-size: 10px;
+    height: 25px;
+
+    
+   
+}
+.defSelectRay:hover li{
+    display: flex;
+}
+

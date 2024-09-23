@@ -1,0 +1,851 @@
+.teamgloryMallorca{
+    width: 1420px;
+    height: 150px;
+    border-bottom: 10px solid black;
+    /*background-color: #dbd9bb; */
+    border-radius: 0.3em;
+    position: relative;
+    background: linear-gradient( #ada681,yellow, red);
+
+}
+
+a.infoMallorca,
+a.infoMallorcaGK,
+a.infoMallorcaFOR{
+    position: absolute;
+    left: 0em;
+    display: none;
+}
+
+
+a.iconMallorca{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    border-right: 2px solid #000;
+    padding-left: 1em;
+    
+}
+
+a.pic-iconMallorca img{
+    display: flex;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 2em;
+    top: 1em;
+    border: 1em;
+    fill: black;
+    background: none;
+    
+} 
+
+a.pic-iconMallorca{
+    bottom: 0em;
+    width: 175px;
+}
+a.pic-photoMallorca img{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: auto;
+    align-items: right;
+    padding-top: 0.56em;
+    left: 0em;
+    top: 0.74em;
+    
+    
+}
+
+a.pic-photoMallorcaGK img{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: auto;
+    padding-top: 0.56em;
+    left: 0.5em;
+    top: 0.74em;
+    
+}
+.infoMallorcaGK a.t-shirt-number-GKMallorca svg{
+    position: absolute;
+    padding-top: 3.3em;
+    padding-left: 0.6em;
+    fill:rgb(39, 136, 192);
+    stroke-width: 20px;
+    stroke: white;
+  
+}
+
+
+a.t-shirt-numberMallorca svg{
+    position: absolute;
+    left: 1.5em;
+    top: 7em;
+    fill:rgb(255, 6, 6);
+    stroke-width: 20px;
+    stroke:white;
+    border-color: 3px solid black;
+}
+
+.playerMallorca .infoMallorca {
+    position: absolute;
+    display: flex;
+}
+
+.infoMallorca h4,
+.infoMallorcaFOR h4{
+    position: absolute;
+    font-size: 20px;
+    width: 42px;
+    height: 60px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    top: 0.2em;
+    left: 0.5em;
+    
+
+} 
+
+
+.infoMallorcaGK{
+    position: absolute;
+    font-size: 20px;
+    width: 42px;
+    height: 60px;
+    display: flex;
+    color: white;
+
+}
+
+.infoMallorcaGK h4{
+    color:white;
+    top: 0em;
+    left: -0.15em;
+  
+
+}
+.gk-playersMallorca{
+    align-items: center;
+    width: 1380px;
+    transition-delay:  0.3s;
+    display: flex;
+    position: relative;
+}
+
+.gk-playersMallorca h5{
+    font-size: 30px;
+    display: flex;
+    left: 0;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0em;
+    color: black;
+}
+.infoMallorca h5{
+    padding-left: 0.2em;
+}
+
+.infoMallorcaFOR h5{
+    left: -0.5em;
+    top: 0;
+}
+.infoName{
+    position: absolute;
+    color: black;
+    z-index: 10;
+    font-size: 23px;
+    top: 192px;
+    left: 0;
+    width: 250px;
+    text-align: center;
+   
+
+}
+.infoMallorca h6,
+.infMallorcaGK h6{
+    position: absolute;
+    font-size: 15px;
+    display: flex;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    opacity: 0.3;
+    top: 0;
+    left:0;
+}
+
+a.InfoFone{
+    position: absolute;
+    font-size: 15px;
+    background: linear-gradient( #ada681, white);
+    width: 250px;
+    height:65px;
+    top: 186px;
+    left: 0;
+    opacity:0.8;
+    border-radius: 0.5em;
+    border-top: 3px solid black;
+}
+.short h6{
+    left: 3px;
+}
+
+.goalkeepers,
+.defenders,
+.midfilders,
+.forwards{
+    margin-bottom: 1em;
+    height: 400px;
+    border-bottom: 3px solid rgb(12, 0, 60);
+    background-color: #dbd9bb;
+    border-radius: 0.3em;
+   
+}
+
+.goalkeepers{
+    border-top:  3px solid rgb(12, 0, 60);
+}
+
+
+.flagCour img.flagsvgPortugal{
+    position: absolute;
+    left: 11em;
+    top: 3.5em;
+}
+.flagCour img.flagsvgMoz{
+    position: absolute;
+    left: 12em;
+    top: 3.5em;
+}
+
+.date{
+    position:absolute;
+    color: rgba(255, 255, 255, 0.593);
+    font-size: 15px;
+    top: 106px;
+    right: 150px;
+
+}
+
+.foot{
+    position: absolute;
+    color:black;
+    font-size: 15px;
+    padding: 5px;
+    top: 15px;
+    right: 25px;
+}
+.stepsvg{
+    position: relative;
+    color: black;
+    font-size: 25px;
+    top: 10px;
+    left: 127px;
+}
+
+.text-L{
+    font-size: 15px;
+    position: absolute;
+    top:70px;
+    left: 184px;
+    color: white;
+    z-index: 50;
+}
+
+.text-R{
+    font-size: 15px;
+    position: absolute;
+    top:85px;
+    left: 210px;
+    color: white;
+    z-index: 50;
+}
+
+.DEFlist,
+.listMID{
+    position: relative;
+    width: 1380px;
+    display: flex;
+   
+
+}
+
+.headerGK,
+.headerDEF,
+.headerMID,
+.headerFOR{
+    display: flex;
+    width: 1300px;
+    font-size: 50px;
+    position: relative;
+    left: 1em;
+    border-bottom: 3px solid #000;
+}
+
+.headername{
+    display: flex;
+    position: absolute;
+    left: 2em;
+    top: 20px;
+}
+
+.iconHead{
+    position: absolute;
+    top:10px;
+    right:1em;
+}
+.def-head-svg,
+.for-head-svg{
+    position: relative;
+    top: 11.4px;
+}
+
+.headerGKicon a.svg,
+.headerFORicon a.svg{
+    font-size: 50px;
+    position: relative;
+    top: 1em;
+    left: 5%;
+}
+.players-arrow {
+    font-size: 30px;
+    color: rgb(12, 0, 60);
+    position: absolute;
+    border: 3px solid rgb(12, 0, 60);
+    background-color: rgb(208, 194, 122);
+    border-radius: 0.1em;
+    cursor: pointer;
+    z-index: 50;
+    align-items: center;
+    height: 280px;
+}
+
+
+
+#secondbuttonMallorca,
+#secondbuttonMIDMallorca
+{
+    width: 50px;
+    right: 1410px;
+    display: none;  
+
+    
+   
+}
+
+#firstbuttonMallorca,
+#firstbuttonMIDMallorca{
+    position: absolute;
+    width: 55px;
+    left: 1400px;
+    
+   
+}
+
+#secondMallorca,
+#secondMIDMallorca{
+    position: relative;
+    display: none;
+    transition-delay: 0.3sec;
+    width: 1420px;
+    left: 42%;
+}
+.gk-players,
+.firstlist,
+.firstMIDlist,
+.fr-players{
+    align-items: center;
+    width: 1380px;
+    transition-delay:  0.3s;
+    display: flex;
+    position: relative;
+
+}
+.secondlist,
+.secondMIDlist{
+    align-items: center;
+    display: flex;
+    position: relative;
+    width: 840px;
+    left: -42%;
+    
+}
+
+#bioMallorca1,
+#bioMallorca1-1,
+#bioMallorca2,
+#bioMallorca2-1,
+#bioMallorca3,
+#bioMallorca3-1,
+#bioMallorca3-2,
+#bioMallorca3-3,
+#bioMallorca3-4,
+#bioMallorca4,
+#bioMallorca4-1,
+#bioMallorca4-2,
+#bioMallorca4-3,
+#bioMallorca4-4,
+#bioMallorca5,
+#bioMallorca5-1,
+#bioMallorca5-2,
+#bioMallorca5-3,
+#bioMallorca5-4,
+#bioMallorca6,
+#bioMallorca6-1,
+#bioMallorca6-2,
+#bioMallorca6-3,
+#bioMallorca6-4,
+#bioMallorca7,
+#bioMallorca7-1,
+#bioMallorca7-2,
+#bioMallorca7-3,
+#bioMallorca7-4,
+#bioMallorca8,
+#bioMallorca8-1,
+#bioMallorca8-2,
+#bioMallorca8-3,
+#bioMallorca8-4,
+#bioMallorca9,
+#bioMallorca9-1,
+#bioMallorca9-2,
+#bioMallorca9-3,
+#bioMallorca9-4,
+#bioMallorca10,
+#bioMallorca10-1,
+#bioMallorca10-2,
+#bioMallorca10-3,
+#bioMallorca10-4,
+#bioMallorca11,
+#bioMallorca11-1,
+#bioMallorca11-2,
+#bioMallorca11-3,
+#bioMallorca11-4,
+#bioMallorca12,
+#bioMallorca12-1,
+#bioMallorca12-2,
+#bioMallorca12-3,
+#bioMallorca12-4,
+#bioMallorca13,
+#bioMallorca13-1,
+#bioMallorca13-2,
+#bioMallorca13-3,
+#bioMallorca13-4,
+#bioMallorca14,
+#bioMallorca14-1,
+#bioMallorca14-2,
+#bioMallorca14-3,
+#bioMallorca14-4,
+#bioMallorca15,
+#bioMallorca15-1,
+#bioMallorca15-2,
+#bioMallorca15-3,
+#bioMallorca15-4,
+#bioMallorca16,
+#bioMallorca16-1,
+#bioMallorca16-2,
+#bioMallorca17,
+#bioMallorca17-1,
+#bioMallorca17-2,
+#bioMallorca18,
+#bioMallorca18-1,
+#bioMallorca18-2,
+#bioMallorca19,
+#bioMallorca19-1,
+#bioMallorca19-2
+
+{
+    font-size:10px;
+    width: 25em;
+    height: 14em;
+    top: 10em;
+    border: 2px solid rgb(12, 0, 60) ;
+    border-radius: 10px;
+    position: absolute;
+    right: -1px;
+    background-color: rgb(208, 194, 122);
+    display: none;
+    z-index: 10;
+}
+
+#GKplayerMal1,
+#GKplayerMal2,
+#DEFplayerMal3,
+#DEFplayerMal4,
+#DEFplayerMal5,
+#DEFplayerMal6,
+#DEFplayerMal7,
+#DEFplayerMal8,
+#MIDplayerMal9,
+#MIDplayerMal10,
+#MIDplayerMal11,
+#MIDplayerMal12,
+#MIDplayerMal13,
+#MIDplayerMal14,
+#FORPlayerMal15,
+#FORPlayerMal16,
+#FORPlayerMal17,
+#FORPlayerMal18
+
+{
+    font-size:10px;
+    display: flex;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: relative;
+    margin: 1em;
+    margin-left: 0;
+    font-style: italic;
+    top:0em;
+}
+#GKspotMal1,
+#GKspotMal2
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 60.3em;
+    font-style: italic;
+    bottom:115.3em;
+}
+#DEFspotMal31,
+#DEFspotMal41,
+#DEFspotMal51,
+#DEFspotMal61,
+#DEFspotMal71,
+#DEFspotMal81
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 10em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotMal32,
+#DEFspotMal42,
+#DEFspotMal52,
+#DEFspotMal62,
+#DEFspotMal72,
+#DEFspotMal82
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 43em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotMal33,
+#DEFspotMal43,
+#DEFspotMal53,
+#DEFspotMal63,
+#DEFspotMal73,
+#DEFspotMal83
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 76em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotMal34,
+#DEFspotMal44,
+#DEFspotMal54,
+#DEFspotMal64,
+#DEFspotMal74,
+#DEFspotMal84
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 109em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#MIDspotMal91,
+#MIDspotMal101,
+#MIDspotMal111,
+#MIDspotMal121,
+#MIDspotMal131,
+#MIDspotMal141
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 10em;
+    font-style: italic;
+    bottom:45.2em;
+}
+
+#MIDspotMal92,
+#MIDspotMal102,
+#MIDspotMal112,
+#MIDspotMal122,
+#MIDspotMal132,
+#MIDspotMal142
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 43em;
+    font-style: italic;
+    bottom:45.2em;
+}
+#MIDspotMal93,
+#MIDspotMal103,
+#MIDspotMal113,
+#MIDspotMal123,
+#MIDspotMal133,
+#MIDspotMal143
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 76em;
+    font-style: italic;
+    bottom:45.2em;
+}
+#MIDspotMal94,
+#MIDspotMal104,
+#MIDspotMal114,
+#MIDspotMal124,
+#MIDspotMal134,
+#MIDspotMal144
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 109em;
+    font-style: italic;
+    bottom:45.2em;
+}
+
+#FORspotMal151,
+#FORspotMal161,
+#FORspotMal171,
+#FORspotMal181
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 30em;
+    font-style: italic;
+    bottom:8em;
+
+}
+
+#FORspotMal152,
+#FORspotMal162,
+#FORspotMal172,
+#FORspotMal182
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 86em;
+    font-style: italic;
+    bottom:8em;
+
+}
+
+.buttonSelectMal,
+.buttonSelectBackMal{
+    position:absolute;
+    color: white;
+    background-color:black;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    left: 6em;
+    top: 0em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+.buttonSelectMal:hover{
+    background-color:rgb(5, 160, 26) ;
+    transition-delay: 0.3s;
+   
+}
+.buttonSelectBackMal:hover{
+    background-color:rgb(255, 15, 15) ;
+    transition-delay: 0.3s;
+   
+}
+
+
+.buttonSelectDefMenuMal{
+    position:absolute;
+    color: white;
+    background-color:black;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    left: 3em;
+    top: 0.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.buttonSelectDefMenuMal a{
+    position: relative;
+    display: block;
+    text-align: center;
+}
+.buttonSelectDefMenuMal:hover{
+    background: linear-gradient( #ada681, yellow);
+    color: #000;
+    
+}
+
+
+.buttonSelectDefMal{
+    position: relative;
+    background: linear-gradient( #ada681, yellow);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 0.3em;
+    width: 50px;
+    height: 20px;
+}
+
+.buttonSelectDefMal:hover{
+    background: linear-gradient( #ada681, rgb(5, 160, 26));
+    transition-delay: 0.3s;
+    color :white;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+   
+}
+
+
+.defSelectMal{
+    left: 4em;
+    top: -1.5em;
+    width: 170px;
+    height: 200px;
+   
+   
+}
+
+
+.defSelectMal li {
+    position: relative;
+    display: none;
+    margin-left: 0.5em;
+    margin-bottom: 0em;
+    border-radius: 0.5em;
+    z-index: 50 ;
+    left: 10em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 1em;
+    font-size: 10px;
+    height: 25px;
+
+    
+   
+}
+.defSelectMal:hover li{
+    display: flex;
+}
+

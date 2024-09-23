@@ -1,0 +1,882 @@
+.teamgloryBilbao{
+    width: 1420px;
+    height: 150px;
+    border-bottom: 10px solid black;
+    /*background-color: #dbd9bb; */
+    border-radius: 0.3em;
+    position: relative;
+    background: linear-gradient( #ada681, white,black, red);
+
+}
+
+a.infoBilbao,
+a.infoBilbaoGK,
+a.infoBilbaoFOR{
+    position: absolute;
+    left: 0em;
+    display: none;
+}
+
+
+a.iconBilbao{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    border-right: 2px solid #000;
+    padding-left: 1em;
+    
+}
+
+a.pic-iconBilbao img{
+    display: flex;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 2em;
+    top: 1em;
+    border: 1em;
+    fill: black;
+    background: none;
+    
+} 
+
+a.pic-iconBilbao{
+    bottom: 0em;
+    width: 175px;
+}
+a.pic-photoBilbao img{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: auto;
+    align-items: right;
+    padding-top: 0.56em;
+    left: 0em;
+    top: 0.74em;
+    
+    
+}
+
+a.pic-photoBilbaoGK img{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: auto;
+    padding-top: 0.56em;
+    left: 0.5em;
+    top: 0.74em;
+    
+}
+.infoBilbaoGK a.t-shirt-number-GKBilbao svg{
+    position: absolute;
+    padding-top: 3.3em;
+    padding-left: 0.6em;
+    fill:black;
+    stroke-width: 20px;
+    stroke: white;
+  
+}
+
+
+a.t-shirt-numberBilbao svg{
+    position: absolute;
+    left: 1.5em;
+    top: 7em;
+    fill:red;
+    stroke-width: 20px;
+    stroke:white;
+    border-color: 3px solid black;
+}
+
+.playerBilbao .infoBilbao {
+    position: absolute;
+    display: flex;
+}
+
+.infoBilbao h4,
+.infoBilbaoFOR h4{
+    position: absolute;
+    font-size: 20px;
+    width: 42px;
+    height: 60px;
+    display: flex;
+    color: rgb(18, 17, 17);
+    top: 0.2em;
+    left: 0.5em;
+    
+
+} 
+
+
+.infoBilbaoGK{
+    position: absolute;
+    font-size: 20px;
+    width: 42px;
+    height: 60px;
+    display: flex;
+    color: white;
+
+}
+
+.infoBilbaoGK h4{
+    color:white;
+    top: 0em;
+    left: -0.15em;
+  
+
+}
+.gk-playersBilbao{
+    align-items: center;
+    width: 1380px;
+    transition-delay:  0.3s;
+    display: flex;
+    position: relative;
+}
+
+.gk-playersBilbao h5{
+    font-size: 30px;
+    display: flex;
+    left: 0;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0em;
+    color: black;
+}
+.infoBilbao h5{
+    padding-left: 0.2em;
+}
+
+.infoBilbaoFOR h5{
+    left: -0.5em;
+    top: 0;
+}
+.infoName{
+    position: absolute;
+    color: black;
+    z-index: 10;
+    font-size: 23px;
+    top: 192px;
+    left: 0;
+    width: 250px;
+    text-align: center;
+   
+
+}
+.infoBilbao h6,
+.infoBilbaoGK h6{
+    position: absolute;
+    font-size: 15px;
+    display: flex;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    opacity: 0.3;
+    top: 0;
+    left:0;
+}
+
+a.InfoFone{
+    position: absolute;
+    font-size: 15px;
+    background: linear-gradient( #ada681, white);
+    width: 250px;
+    height:65px;
+    top: 186px;
+    left: 0;
+    opacity:0.8;
+    border-radius: 0.5em;
+    border-top: 3px solid black;
+}
+.short h6{
+    left: 3px;
+}
+
+.goalkeepers,
+.defenders,
+.midfilders,
+.forwards{
+    margin-bottom: 1em;
+    height: 400px;
+    border-bottom: 3px solid rgb(12, 0, 60);
+    background-color: #dbd9bb;
+    border-radius: 0.3em;
+   
+}
+
+.goalkeepers{
+    border-top:  3px solid rgb(12, 0, 60);
+}
+
+.flagCour img.flagsvgPortugal{
+    position: absolute;
+    left: 11em;
+    top: 3.5em;
+}
+.flagCour img.flagsvgMoz{
+    position: absolute;
+    left: 12em;
+    top: 3.5em;
+}
+
+.date{
+    position:absolute;
+    color: rgba(255, 255, 255, 0.593);
+    font-size: 15px;
+    top: 106px;
+    right: 150px;
+
+}
+
+.oldAlmeria2{
+    position:absolute;
+    color: white;
+    font-size: 15px;
+    top: 87px;
+    right: 175px;
+}
+.foot{
+    position: absolute;
+    color:black;
+    font-size: 15px;
+    padding: 5px;
+    top: 15px;
+    right: 25px;
+}
+.stepsvg{
+    position: relative;
+    color: black;
+    font-size: 25px;
+    top: 10px;
+    left: 127px;
+}
+
+.text-L{
+    font-size: 15px;
+    position: absolute;
+    top:70px;
+    left: 184px;
+    color: white;
+    z-index: 50;
+}
+
+.text-R{
+    font-size: 15px;
+    position: absolute;
+    top:85px;
+    left: 210px;
+    color: white;
+    z-index: 50;
+}
+
+.DEFlist,
+.listMID{
+    position: relative;
+    width: 1380px;
+    display: flex;
+   
+
+}
+
+.headerGK,
+.headerDEF,
+.headerMID,
+.headerFOR{
+    display: flex;
+    width: 1300px;
+    font-size: 50px;
+    position: relative;
+    left: 1em;
+    border-bottom: 3px solid #000;
+}
+
+.headername{
+    display: flex;
+    position: absolute;
+    left: 2em;
+    top: 20px;
+}
+
+.iconHead{
+    position: absolute;
+    top:10px;
+    right:1em;
+}
+.def-head-svg,
+.for-head-svg{
+    position: relative;
+    top: 11.4px;
+}
+
+.headerGKicon a.svg,
+.headerFORicon a.svg{
+    font-size: 50px;
+    position: relative;
+    top: 1em;
+    left: 5%;
+}
+.players-arrow {
+    font-size: 30px;
+    color: rgb(12, 0, 60);
+    position: absolute;
+    border: 3px solid rgb(12, 0, 60);
+    background-color: rgb(208, 194, 122);
+    border-radius: 0.1em;
+    cursor: pointer;
+    z-index: 50;
+    align-items: center;
+    height: 280px;
+}
+
+
+#secondbuttonBilbao,
+#secondbuttonMIDBilbao
+{
+    width: 50px;
+    right: 1410px;
+    display: none;  
+
+    
+   
+}
+
+#firstbuttonBilbao,
+#firstbuttonMIDBilbao{
+    position: absolute;
+    width: 55px;
+    left: 1400px;
+    
+   
+}
+
+#secondBilbao,
+#secondMIDBilbao{
+    position: relative;
+    display: none;
+    transition-delay: 0.3sec;
+    width: 1420px;
+    left: 42%;
+}
+.gk-players,
+.firstlist,
+.firstMIDlist,
+.fr-players{
+    align-items: center;
+    width: 1380px;
+    transition-delay:  0.3s;
+    display: flex;
+    position: relative;
+
+}
+.secondlist,
+.secondMIDlist{
+    align-items: center;
+    display: flex;
+    position: relative;
+    width: 840px;
+    left: -42%;
+    
+}
+
+#bioBilbao1,
+#bioBilbao1-1,
+#bioBilbao2,
+#bioBilbao2-1,
+#bioBilbao3,
+#bioBilbao3-1,
+#bioBilbao4,
+#bioBilbao4-1,
+#bioBilbao4-2,
+#bioBilbao4-3,
+#bioBilbao4-4,
+#bioBilbao5,
+#bioBilbao5-1,
+#bioBilbao5-2,
+#bioBilbao5-3,
+#bioBilbao5-4,
+#bioBilbao6,
+#bioBilbao6-1,
+#bioBilbao6-2,
+#bioBilbao6-3,
+#bioBilbao6-4,
+#bioBilbao7,
+#bioBilbao7-1,
+#bioBilbao7-2,
+#bioBilbao7-3,
+#bioBilbao7-4,
+#bioBilbao8,
+#bioBilbao8-1,
+#bioBilbao8-2,
+#bioBilbao8-3,
+#bioBilbao8-4,
+#bioBilbao9,
+#bioBilbao9-1,
+#bioBilbao9-2,
+#bioBilbao9-3,
+#bioBilbao9-4,
+#bioBilbao10,
+#bioBilbao10-1,
+#bioBilbao10-2,
+#bioBilbao10-3,
+#bioBilbao10-4,
+#bioBilbao11,
+#bioBilbao11-1,
+#bioBilbao11-2,
+#bioBilbao11-3,
+#bioBilbao11-4,
+#bioBilbao12,
+#bioBilbao12-1,
+#bioBilbao12-2,
+#bioBilbao12-3,
+#bioBilbao12-4,
+#bioBilbao13,
+#bioBilbao13-1,  
+#bioBilbao13-2, 
+#bioBilbao13-3,
+#bioBilbao13-4,
+#bioBilbao14,
+#bioBilbao14-1,
+#bioBilbao14-2,
+#bioBilbao14-3,
+#bioBilbao14-4,
+#bioBilbao15,
+#bioBilbao15-1,
+#bioBilbao15-2,
+#bioBilbao15-3,
+#bioBilbao15-4,
+#bioBilbao16,
+#bioBilbao16-1,
+#bioBilbao16-2,
+#bioBilbao16-3,
+#bioBilbao16-4,
+#bioBilbao17,
+#bioBilbao17-1,
+#bioBilbao17-2,
+#bioBilbao17-3,
+#bioBilbao17-4,
+#bioBilbao18,
+#bioBilbao18-1,
+#bioBilbao18-2,
+#bioBilbao18-3,
+#bioBilbao18-4,
+#bioBilbao19,
+#bioBilbao19-1,
+#bioBilbao19-2,
+#bioBilbao19-3,
+#bioBilbao19-4,
+#bioBilbao20,
+#bioBilbao20-1,
+#bioBilbao20-2,
+#bioBilbao21,
+#bioBilbao21-1,
+#bioBilbao21-2,
+#bioBilbao22,
+#bioBilbao22-1,
+#bioBilbao22-2,
+#bioBilbao23,
+#bioBilbao23-1,
+#bioBilbao23-2,
+#bioBilbao24,
+#bioBilbao24-1,
+#bioBilbao24-2
+
+{
+    font-size:10px;
+    width: 25em;
+    height: 14em;
+    top: 10em;
+    border: 2px solid rgb(12, 0, 60) ;
+    border-radius: 10px;
+    position: absolute;
+    right: -1px;
+    background-color: rgb(208, 194, 122);
+    display: none;
+    z-index: 10;
+}
+
+
+#GKplayerBil1,
+#GKplayerBil2,
+#GKplayerBil3,
+#DEFplayerBil4,
+#DEFplayerBil5,
+#DEFplayerBil6,
+#DEFplayerBil7,
+#DEFplayerBil8,
+#DEFplayerBil9,
+#DEFplayerBil10,
+#DEFplayerBil11,
+#MIDplayerBil12,
+#MIDplayerBil13,
+#MIDplayerBil14,
+#MIDplayerBil15,
+#MIDplayerBil16,
+#MIDplayerBil17,
+#MIDplayerBil18,
+#MIDplayerBil19,
+#FORPlayerBil20,
+#FORPlayerBil21,
+#FORPlayerBil22,
+#FORPlayerBil23,
+#FORPlayerBil24{
+    font-size:10px;
+    display: flex;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: relative;
+    margin: 1em;
+    margin-left: 0;
+    font-style: italic;
+    top:0em;
+}
+#GKspotBil1,
+#GKspotBil2,
+#GKspotBil3{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 60.3em;
+    font-style: italic;
+    bottom:115.3em;
+}
+
+#DEFspotBil41,
+#DEFspotBil51,
+#DEFspotBil61,
+#DEFspotBil71,
+#DEFspotBil81,
+#DEFspotBil91,
+#DEFspotBil101,
+#DEFspotBil111{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 10em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotBil42,
+#DEFspotBil52,
+#DEFspotBil62,
+#DEFspotBil72,
+#DEFspotBil82,
+#DEFspotBil92,
+#DEFspotBil102,
+#DEFspotBil112{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 43em;
+    font-style: italic;
+    bottom:82.2em;
+}
+#DEFspotBil43,
+#DEFspotBil53,
+#DEFspotBil63,
+#DEFspotBil73,
+#DEFspotBil83,
+#DEFspotBil93,
+#DEFspotBil103,
+#DEFspotBil113{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 76em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotBil44,
+#DEFspotBil54,
+#DEFspotBil64,
+#DEFspotBil74,
+#DEFspotBil84,
+#DEFspotBil94,
+#DEFspotBil104,
+#DEFspotBil114{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 109em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#MIDspotBil121,
+#MIDspotBil131,
+#MIDspotBil141,
+#MIDspotBil151,
+#MIDspotBil161,
+#MIDspotBil171,
+#MIDspotBil181,
+#MIDspotBil191{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 10em;
+    font-style: italic;
+    bottom:45.2em;
+}
+
+#MIDspotBil122,
+#MIDspotBil132,
+#MIDspotBil142,
+#MIDspotBil152,
+#MIDspotBil162,
+#MIDspotBil172,
+#MIDspotBil182,
+#MIDspotBil192{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 43em;
+    font-style: italic;
+    bottom:45.2em;
+}
+#MIDspotBil123,
+#MIDspotBil133,
+#MIDspotBil143,
+#MIDspotBil153,
+#MIDspotBil163,
+#MIDspotBil173,
+#MIDspotBil183,
+#MIDspotBil193{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 76em;
+    font-style: italic;
+    bottom:45.2em;
+}
+#MIDspotBil124,
+#MIDspotBil134,
+#MIDspotBil144,
+#MIDspotBil154,
+#MIDspotBil164,
+#MIDspotBil174,
+#MIDspotBil184,
+#MIDspotBil194{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 109em;
+    font-style: italic;
+    bottom:45.2em;
+}
+
+#FORspotBil201,
+#FORspotBil211,
+#FORspotBil221,
+#FORspotBil231,
+#FORspotBil241{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 30em;
+    font-style: italic;
+    bottom:8em;
+
+}
+#FORspotBil202,
+#FORspotBil212,
+#FORspotBil222,
+#FORspotBil232,
+#FORspotBil242{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 86em;
+    font-style: italic;
+    bottom:8em;
+
+}
+
+.buttonSelectBil,
+.buttonSelectBackBil{
+    position:absolute;
+    color: white;
+    background-color:black;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    left: 6em;
+    top: 0em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+.buttonSelectBil:hover{
+    background-color:rgb(5, 160, 26) ;
+    transition-delay: 0.3s;
+   
+}
+.buttonSelectBackBil:hover{
+    background-color:rgb(255, 15, 15) ;
+    transition-delay: 0.3s;
+   
+}
+
+
+.buttonSelectDefMenuBil{
+    position:absolute;
+    color: white;
+    background-color:black;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    left: 3em;
+    top: 0.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.buttonSelectDefMenuBil a{
+    position: relative;
+    display: block;
+    text-align: center;
+}
+.buttonSelectDefMenuBil:hover{
+    background: linear-gradient( #ada681, yellow);
+    color: #000;
+    
+}
+
+
+.buttonSelectDefBil{
+    position: relative;
+    background: linear-gradient( #ada681, yellow);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 0.3em;
+    width: 50px;
+    height: 20px;
+}
+
+.buttonSelectDefBil:hover{
+    background: linear-gradient( #ada681, rgb(5, 160, 26));
+    transition-delay: 0.3s;
+    color :white;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+   
+}
+
+
+.defSelectBil{
+    left: 4em;
+    top: -1.5em;
+    width: 170px;
+    height: 200px;
+   
+   
+}
+
+
+.defSelectBil li {
+    position: relative;
+    display: none;
+    margin-left: 0.5em;
+    margin-bottom: 0em;
+    border-radius: 0.5em;
+    z-index: 50 ;
+    left: 10em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 1em;
+    font-size: 10px;
+    height: 25px;
+
+    
+   
+}
+.defSelectBil:hover li{
+    display: flex;
+}

@@ -1,0 +1,921 @@
+.teamgloryBarcelona{
+    width: 1420px;
+    height: 150px;
+    border-bottom: 10px solid black;
+    /*background-color: #dbd9bb; */
+    border-radius: 0.3em;
+    position: relative;
+    background: linear-gradient( #ada681,red, blue);
+
+}
+
+a.stadionBarca img{
+    position: absolute;
+    right: 3em;
+    align-items: center;
+    width: 220px;
+    bottom: -2em;
+
+}
+a.infoBarcelona,
+a.infoBarcelonaGK,
+a.infoBarcelonaFOR{
+    position: absolute;
+    left: 0em;
+    display: none;
+}
+
+
+a.iconBarcelona{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    border-right: 2px solid #000;
+    padding-left: 1em;
+    
+}
+
+a.pic-iconBarcelona img{
+    display: flex;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 2em;
+    top: 1em;
+    border: 1em;
+    fill: black;
+    background: none;
+    
+} 
+
+a.pic-iconBarcelona{
+    bottom: 0em;
+    width: 175px;
+}
+a.pic-photoBarcelona img{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    width: 180px;
+    height: auto;
+    align-items: right;
+    padding-top: 0.56em;
+    left: 0em;
+    top: 1em;
+    
+    
+}
+a.pic-photoBarcelonaCubrasi img{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    width: 210px;
+    height: auto;
+    align-items: right;
+    padding-top: 0.56em;
+    left: 0em;
+    top: 1em;
+
+}
+
+a.pic-photoBarcelonaGK img{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    width: 180px;
+    height: auto;
+    padding-top: 0.56em;
+    left: 0em;
+    top: 1em;
+    
+}
+.infoBarcelonaGK a.t-shirt-number-GKBarcelona svg{
+    position: absolute;
+    padding-top: 3.3em;
+    padding-left: 0.6em;
+    fill:rgb(67, 180, 129);
+    stroke-width: 20px;
+    stroke: rgb(6, 89, 52);
+  
+}
+
+
+a.t-shirt-numberBarcelona svg{
+    position: absolute;
+    left: 1.5em;
+    top: 7em;
+    fill:blue;
+    stroke-width: 50px;
+    stroke:RED;
+    border-color: 3px solid black;
+}
+
+.playerBarcelona .infoBarcelona {
+    position: absolute;
+    display: flex;
+}
+
+.infoBarcelona h4,
+.infoBarcelonaFOR h4{
+    position: absolute;
+    font-size: 20px;
+    width: 42px;
+    height: 60px;
+    display: flex;
+    color: yellow;
+    top: 0.2em;
+    left: 0.5em;
+    
+
+} 
+
+
+.infoBarcelonaGK{
+    position: absolute;
+    font-size: 20px;
+    width: 42px;
+    height: 60px;
+    display: flex;
+    color: white;
+
+}
+
+.infoBarcelonaGK h4{
+    color:white;
+    top: 0em;
+    left: -0.15em;
+  
+
+}
+.gk-playersBarcelona{
+    align-items: center;
+    width: 1380px;
+    transition-delay:  0.3s;
+    display: flex;
+    position: relative;
+}
+
+.gk-playersBarcelona h5{
+    font-size: 30px;
+    display: flex;
+    left: 0;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0em;
+    color: black;
+}
+.infoBarcelona h5{
+    padding-left: 0.2em;
+}
+
+.infoBarcelonaFOR h5{
+    left: -0.5em;
+    top: 0;
+}
+.infoName{
+    position: absolute;
+    color: black;
+    z-index: 10;
+    font-size: 23px;
+    top: 192px;
+    left: 0;
+    width: 250px;
+    text-align: center;
+   
+
+}
+.infoBarcelona h6,
+.infoBarcelonaGK h6{
+    position: absolute;
+    font-size: 15px;
+    display: flex;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    opacity: 0.3;
+    top: 0;
+    left:0;
+}
+
+a.InfoFone{
+    position: absolute;
+    font-size: 15px;
+    background: linear-gradient( #ada681, white);
+    width: 250px;
+    height:65px;
+    top: 186px;
+    left: 0;
+    opacity:0.8;
+    border-radius: 0.5em;
+    border-top: 3px solid black;
+}
+.short h6{
+    left: 3px;
+}
+
+.goalkeepers,
+.defenders,
+.midfilders,
+.forwards{
+    margin-bottom: 1em;
+    height: 400px;
+    border-bottom: 3px solid rgb(12, 0, 60);
+    background-color: #dbd9bb;
+    border-radius: 0.3em;
+   
+}
+
+.goalkeepers{
+    border-top:  3px solid rgb(12, 0, 60);
+}
+
+
+.flagCour img.flagsvgPortugal{
+    position: absolute;
+    left: 11em;
+    top: 3.5em;
+}
+.flagCour img.flagsvgMoz{
+    position: absolute;
+    left: 12em;
+    top: 3.5em;
+}
+
+.date{
+    position:absolute;
+    color: rgba(255, 255, 255, 0.593);
+    font-size: 15px;
+    top: 106px;
+    right: 150px;
+
+}
+
+.oldAlmeria2{
+    position:absolute;
+    color: white;
+    font-size: 15px;
+    top: 87px;
+    right: 175px;
+}
+.foot{
+    position: absolute;
+    color:black;
+    font-size: 15px;
+    padding: 5px;
+    top: 15px;
+    right: 25px;
+}
+.stepsvg{
+    position: relative;
+    color: black;
+    font-size: 25px;
+    top: 10px;
+    left: 127px;
+}
+
+.text-L{
+    font-size: 15px;
+    position: absolute;
+    top:70px;
+    left: 184px;
+    color: white;
+    z-index: 50;
+}
+
+.text-R{
+    font-size: 15px;
+    position: absolute;
+    top:85px;
+    left: 210px;
+    color: white;
+    z-index: 50;
+}
+
+.DEFlist,
+.listMID{
+    position: relative;
+    width: 1380px;
+    display: flex;
+   
+
+}
+
+.headerGK,
+.headerDEF,
+.headerMID,
+.headerFOR{
+    display: flex;
+    width: 1300px;
+    font-size: 50px;
+    position: relative;
+    left: 1em;
+    border-bottom: 3px solid #000;
+}
+
+.headername{
+    display: flex;
+    position: absolute;
+    left: 2em;
+    top: 20px;
+}
+
+.iconHead{
+    position: absolute;
+    top:10px;
+    right:1em;
+}
+.def-head-svg,
+.for-head-svg{
+    position: relative;
+    top: 11.4px;
+}
+
+.headerGKicon a.svg,
+.headerFORicon a.svg{
+    font-size: 50px;
+    position: relative;
+    top: 1em;
+    left: 5%;
+}
+.players-arrow {
+    font-size: 30px;
+    color: rgb(12, 0, 60);
+    position: absolute;
+    border: 3px solid rgb(12, 0, 60);
+    background-color: rgb(208, 194, 122);
+    border-radius: 0.1em;
+    cursor: pointer;
+    z-index: 50;
+    align-items: center;
+    height: 280px;
+}
+
+
+#secondbuttonBarcelona,
+#secondbuttonMIDBarcelona
+{
+    width: 50px;
+    right: 1410px;
+    display: none;  
+
+    
+   
+}
+
+#firstbuttonBarcelona,
+#firstbuttonMIDBarcelona{
+    position: absolute;
+    width: 55px;
+    left: 1400px;
+    
+   
+}
+
+#secondBarcelona,
+#secondMIDBarcelona{
+    position: relative;
+    display: none;
+    transition-delay: 0.3sec;
+    width: 1420px;
+    left: 42%;
+}
+.gk-players,
+.firstlist,
+.firstMIDlist,
+.fr-players{
+    align-items: center;
+    width: 1380px;
+    transition-delay:  0.3s;
+    display: flex;
+    position: relative;
+
+}
+.secondlist,
+.secondMIDlist{
+    align-items: center;
+    display: flex;
+    position: relative;
+    width: 840px;
+    left: -42%;
+    
+}
+
+.JK23,
+.AC15,
+.FDJ21,
+.SR20
+{
+   position: relative;
+   opacity: 50%;
+}
+
+
+#bioBarcelona1,
+#bioBarcelona1-1,
+#bioBarcelona2,
+#bioBarcelona2-1,
+#bioBarcelona3,
+#bioBarcelona3-1,
+#bioBarcelona3-2,
+#bioBarcelona3-3,
+#bioBarcelona3-4,
+#bioBarcelona4,
+#bioBarcelona4-1,
+#bioBarcelona4-2,
+#bioBarcelona4-3,
+#bioBarcelona4-4,
+#bioBarcelona5,
+#bioBarcelona5-1,
+#bioBarcelona5-2,
+#bioBarcelona5-3,
+#bioBarcelona5-4,
+#bioBarcelona6,
+#bioBarcelona6-1,
+#bioBarcelona6-2,
+#bioBarcelona6-3,
+#bioBarcelona6-4,
+#bioBarcelona7,
+#bioBarcelona7-1,
+#bioBarcelona7-2,
+#bioBarcelona7-3,
+#bioBarcelona7-4,
+#bioBarcelona8,
+#bioBarcelona8-1,
+#bioBarcelona8-2,
+#bioBarcelona8-3,
+#bioBarcelona8-4,
+#bioBarcelona9,
+#bioBarcelona9-1,
+#bioBarcelona9-2,
+#bioBarcelona9-3,
+#bioBarcelona9-4,
+#bioBarcelona10,
+#bioBarcelona10-1,
+#bioBarcelona10-2,
+#bioBarcelona10-3,
+#bioBarcelona10-4,
+#bioBarcelona11,
+#bioBarcelona11-1,
+#bioBarcelona11-2,
+#bioBarcelona11-3,
+#bioBarcelona11-4,
+#bioBarcelona12,
+#bioBarcelona12-1,
+#bioBarcelona12-2,
+#bioBarcelona12-3,
+#bioBarcelona12-4,
+#bioBarcelona13,
+#bioBarcelona13-1,
+#bioBarcelona11-2,
+#bioBarcelona11-3,
+#bioBarcelona11-4,
+#bioBarcelona12,
+#bioBarcelona12-2,
+#bioBarcelona12-3,
+#bioBarcelona12-3,
+#bioBarcelona12-4,
+#bioBarcelona13,
+#bioBarcelona13-1,
+#bioBarcelona13-2,
+#bioBarcelona13-3,
+#bioBarcelona13-4,
+#bioBarcelona14,
+#bioBarcelona14-1,
+#bioBarcelona14-2,
+#bioBarcelona14-3,
+#bioBarcelona14-4,
+#bioBarcelona15,
+#bioBarcelona15-1,
+#bioBarcelona15-2,
+#bioBarcelona15-3,
+#bioBarcelona15-4,
+#bioBarcelona16,
+#bioBarcelona16-1,
+#bioBarcelona16-2,
+#bioBarcelona16-3,
+#bioBarcelona16-4,
+#bioBarcelona17,
+#bioBarcelona17-1,
+#bioBarcelona17-2,
+#bioBarcelona17-3,
+#bioBarcelona17-4,
+#bioBarcelona18,
+#bioBarcelona18-1,
+#bioBarcelona18-2,
+#bioBarcelona19,
+#bioBarcelona19-1,
+#bioBarcelona19-2,
+#bioBarcelona20,
+#bioBarcelona20-1,
+#bioBarcelona20-2,
+#bioBarcelona21,
+#bioBarcelona21-1,
+#bioBarcelona21-2,
+#bioBarcelona22,
+#bioBarcelona22-1,
+#bioBarcelona22-2
+{
+    font-size:10px;
+    width: 25em;
+    height: 14em;
+    top: 10em;
+    border: 2px solid rgb(12, 0, 60) ;
+    border-radius: 10px;
+    position: absolute;
+    right: -1px;
+    background-color: rgb(208, 194, 122);
+    display: none;
+    z-index: 10;
+}
+
+
+#GKplayerBar1,
+#GKplayerBar2,
+#DEFplayerBar3,
+#DEFplayerBar4,
+#DEFplayerBar5,
+#DEFplayerBar6,
+#DEFplayerBar7,
+#DEFplayerBar8,
+#DEFplayerBar9,
+#DEFplayerBar10,
+#MIDplayerBar11,
+#MIDplayerBar12,
+#MIDplayerBar13,
+#MIDplayerBar14,
+#MIDplayerBar15,
+#MIDplayerBar16,
+#MIDplayerBar17,
+#FORPlayerBar18,
+#FORPlayerBar19,
+#FORplayerBar20,
+#FORPlayerBar21,
+#FORPlayerBar22
+{
+    font-size:10px;
+    display: flex;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: relative;
+    margin: 1em;
+    margin-left: 0;
+    font-style: italic;
+    top:0em;
+}
+#GKspotBar1,
+#GKspotBar2
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 60.3em;
+    font-style: italic;
+    bottom:115.3em;
+}
+#DEFspotBar31,
+#DEFspotBar41,
+#DEFspotBar51,
+#DEFspotBar61,
+#DEFspotBar71,
+#DEFspotBar81,
+#DEFspotBar91,
+#DEFspotBar101
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 10em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotBar32,
+#DEFspotBar42,
+#DEFspotBar52,
+#DEFspotBar62,
+#DEFspotBar72,
+#DEFspotBar82,
+#DEFspotBar92,
+#DEFspotBar102
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 43em;
+    font-style: italic;
+    bottom:82.2em;
+}
+#DEFspotBar33,
+#DEFspotBar43,
+#DEFspotBar53,
+#DEFspotBar63,
+#DEFspotBar73,
+#DEFspotBar83,
+#DEFspotBar93,
+#DEFspotBar103
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 76em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+#DEFspotBar34,
+#DEFspotBar44,
+#DEFspotBar54,
+#DEFspotBar64,
+#DEFspotBar74,
+#DEFspotBar84,
+#DEFspotBar94,
+#DEFspotBar104
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 109em;
+    font-style: italic;
+    bottom:82.2em;
+}
+
+
+#MIDspotBar111,
+#MIDspotBar121,
+#MIDspotBar131,
+#MIDspotBar141,
+#MIDspotBar151,
+#MIDspotBar161,
+#MIDspotBar171
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 10em;
+    font-style: italic;
+    bottom:45.2em;
+}
+
+#MIDspotBar112,
+#MIDspotBar122,
+#MIDspotBar132,
+#MIDspotBar142,
+#MIDspotBar152,
+#MIDspotBar162,
+#MIDspotBar172
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 43em;
+    font-style: italic;
+    bottom:45.2em;
+}
+#MIDspotBar113,
+#MIDspotBar123,
+#MIDspotBar133,
+#MIDspotBar143,
+#MIDspotBar153,
+#MIDspotBar163,
+#MIDspotBar173
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 76em;
+    font-style: italic;
+    bottom:45.2em;
+}
+#MIDspotBar114,
+#MIDspotBar124,
+#MIDspotBar134,
+#MIDspotBar144,
+#MIDspotBar154,
+#MIDspotBar164,
+#MIDspotBar174
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 109em;
+    font-style: italic;
+    bottom:45.2em;
+}
+
+#FORspotBar181,
+#FORspotBar191,
+#FORspotBar201,
+#FORspotBar211,
+#FORspotBar221
+
+{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 30em;
+    font-style: italic;
+    bottom:8em;
+
+}
+#FORspotBar182,
+#FORspotBar192,
+#FORspotBar202,
+#FORspotBar212,
+#FORspotBar222{
+    font-size:10px;
+    display: none;
+    width: 25em;
+    height: 25em;
+    border: 5px solid rgb(12, 0, 60) ;
+    border-radius: 1em;
+    background: linear-gradient( #ada681, white);
+    left: 3.5em;
+    position: absolute;
+    margin: 1em;
+    left: 86em;
+    font-style: italic;
+    bottom:8em;
+
+}
+
+.buttonSelectBar,
+.buttonSelectBackBar{
+    position:absolute;
+    color: white;
+    background-color:black;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    left: 6em;
+    top: 0em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+.buttonSelectBar:hover{
+    background-color:rgb(5, 160, 26) ;
+    transition-delay: 0.3s;
+   
+}
+.buttonSelectBackBar:hover{
+    background-color:rgb(255, 15, 15) ;
+    transition-delay: 0.3s;
+   
+}
+
+
+.buttonSelectDefMenuBar{
+    position:absolute;
+    color: white;
+    background-color:black;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    left: 3em;
+    top: 0.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.buttonSelectDefMenuBar a{
+    position: relative;
+    display: block;
+    text-align: center;
+}
+.buttonSelectDefMenuBar:hover{
+    background: linear-gradient( #ada681, yellow);
+    color: #000;
+    
+}
+
+
+.buttonSelectDefBar{
+    position: relative;
+    background: linear-gradient( #ada681, yellow);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 0.3em;
+    width: 50px;
+    height: 20px;
+}
+
+.buttonSelectDefBar:hover{
+    background: linear-gradient( #ada681, rgb(5, 160, 26));
+    transition-delay: 0.3s;
+    color :white;
+    border: 2px solid;
+    border-radius: 0.3em;
+    border-color: white;
+   
+}
+
+
+.defSelectBar{
+    left: 4em;
+    top: -1.5em;
+    width: 170px;
+    height: 200px;
+   
+   
+}
+
+
+.defSelectBar li {
+    position: relative;
+    display: none;
+    margin-left: 0.5em;
+    margin-bottom: 0em;
+    border-radius: 0.5em;
+    z-index: 50 ;
+    left: 10em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 1em;
+    font-size: 10px;
+    height: 25px;
+
+    
+   
+}
+.defSelectBar:hover li{
+    display: flex;
+}
